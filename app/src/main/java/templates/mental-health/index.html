@@ -1,0 +1,50 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <ion-content>
+        
+        <ion-refresher
+            pulling-text="Pull to refresh..." 
+            on-refresh="download()" 
+            ng-if="dataModel">
+        </ion-refresher>
+        
+        <ion-spinner ng-if="!dataModel" class="svg-loading-spinner"></ion-spinner>
+        
+        <ul class="mental-health-links">
+            <li ng-repeat="section in page.sections | limitTo:3">
+                <a href="#/page/{{ page.id }}/section/{{ section.id }}">
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + section.fields.icon }}"></use></svg>
+                        </i>
+                        {{ section.title }}
+                    </div>
+                </a>
+            </li>
+        </ul>
+        
+        <ul class="content-list content-list-mental">
+            <li ng-repeat="section in page.sections" ng-if="$index > 2 && $index < page.sections.length-1">
+                <a href="#/page/{{ page.id }}/section/{{ section.id }}">
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + section.fields.icon }}"></use></svg>
+                        </i>
+                        <p>{{ section.title }}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        
+        <div class="note note-mental" ng-init="note = page.sections[page.sections.length-1]" ng-if="page">
+        
+            <h2>{{ note.title }}</h2>
+            <div ng-bind-html="note.entries[0].fields.body"></div>
+            <!--<p>If you're feeling suicidal or in despair. Telephone <a class="inline-link inline-link-mental" ng-click="callContact('116 123')">116 123</a> (free)</p>
+            <p class="highlight">Or drop in to 5 Wellesley Avenue Belfast Northern Ireland BT9 6DG. Every Day 9am - 10pm</p>-->
+        
+        </div>
+        
+    </ion-content>
+    
+</ion-view>

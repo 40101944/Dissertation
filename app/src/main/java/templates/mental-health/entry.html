@@ -1,0 +1,20 @@
+<ion-view view-title="{{ entry.title }}">
+    
+    <ion-nav-buttons side="secondary">
+        <button class="button button-icon icon ion-ios-search-strong" ng-click="showFilterBar(content.depression)">
+        </button>
+    </ion-nav-buttons>
+    
+    <div class="filter-not-found" ng-if="filterText && filterCount == 0">'{{ filterText }}' was not found.</div>
+    
+    <ion-content>
+        
+        <article class="article-mental">
+            
+            <div ng-repeat="item in content.depression" ng-bind-html="highlight(item, filterText)"></div>
+            
+        </article>
+        
+    </ion-content>
+    
+</ion-view>

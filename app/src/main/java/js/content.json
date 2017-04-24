@@ -1,0 +1,1669 @@
+{
+    "pages": [
+        {
+            "id": "6",
+            "title": "Journal",
+            "fields": {
+                "icon": "journal"
+            }
+        },
+        {
+            "id": "7",
+            "title": "Appointments",
+            "fields": {
+                "icon": "calendar"
+            }
+        },
+        {
+            "id": "2",
+            "title": "Mental Health",
+            "fields": {
+                "icon": "cross"
+            },
+            "sections": [
+                {
+                    "id": "26",
+                    "title": "Samaritans",
+                    "fields": {
+                        "icon": "lifebelt"
+                    },
+                    "entries": [
+                        {
+                            "id": "245",
+                            "title": "",
+                            "fields": {
+                                "body": "<p>If you're feeling suicidal or in despair. Telephone <a href=\"tel:116 123\" target=\"\">116 123<\/a> (free)<\/p><p>Or drop in to 5 Wellesley Avenue, Belfast, Northern Ireland, BT9 6DG. Every day 9am - 10pm.<br\/><\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "27",
+                    "title": "GP Doctor",
+                    "fields": {
+                        "icon": "doctor"
+                    },
+                    "entries": [
+                        {
+                            "id": "242",
+                            "title": "",
+                            "fields": {
+                                "body": "<p>Your GP can make a referral to mental health services or signpost you to other appropriate services or community resources. You can ask the secretary for an urgent appointment if you feel this is necessary.<br\/><\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "28",
+                    "title": "Out of Hours GP",
+                    "fields": {
+                        "icon": "moon"
+                    },
+                    "entries": [
+                        {
+                            "id": "244",
+                            "title": "",
+                            "fields": {
+                                "body": "<p>GP out of hours is available if you require urgent medical care when your GP surgery is closed. GP out of hours services operate:<\/p><ul><li>from 6.00 pm each weekday evening until your GP surgery opens the next morning<\/li><li>24 hours on Saturdays and Sundays<\/li><li>24 hours on public holidays<\/li><\/ul><p>The doctor or nurse will give you advice over the telephone, decide if you need to be seen by a doctor or refer you to another service if required<\/p><p>If something is potentially life-threatening you should phone 999 for emergency services. Otherwise, contacts for out of hours service are listed below by area:<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "29",
+                    "title": "Anxiety",
+                    "fields": {
+                        "icon": "anxious"
+                    },
+                    "entries": [
+                        {
+                            "id": "243",
+                            "title": "",
+                            "fields": {
+                                "body": "<p>Anxiety is a feeling of unease, such as worry or fear that can range from mild to severe. It can be caused by specific situations or it can be constant. Everyone experiences feelings of anxiety at some point, which is natural. People with anxiety disorders find it difficult to control. Their feelings of anxiety often impact upon their daily life.<\/p><h3>Signs\/Symptoms:<\/h3><ul><li>Feelings of irritability or worry<\/li><li>Difficulties sleeping<\/li><li>Difficulties concentrating<\/li><li>Feelings of dread or impending doom<\/li><li>Heart palpitations (irregular hear beat)<\/li><li>Sweating<\/li><li>Tension <\/li><li>Heavy and \/ rapid breathing<\/li><li>Dizziness<\/li><li>Fainting<\/li><li>Indigestion<\/li><li>Diarrhoea<\/li><li>Stomach aches and sickness (especially in young children)<\/li><\/ul><p>If you are concerned that you may be suffering from anxiety, speak to your doctor or your Probation Officer. They will be able to signpost you to appropriate services. Medication and talking therapy can be used to treat anxiety. There are also a lot of self-help materials that can be found online.<\/p><h3>The following tips can help:<\/h3><ul><li>Focus on your breathing, take deep, slow breaths - this one act alone will help reduce the physical sensations, emotions and intensity of thoughts.<\/li><li>Visualisation: Breathe in blue (for calm) and breathe out red.<\/li><li>Try doing something to distract yourself, go for a walk, run or cycle, tidy the house, take a shower.<\/li><\/ul>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "30",
+                    "title": "Depression",
+                    "fields": {
+                        "icon": "unhappy"
+                    },
+                    "entries": [
+                        {
+                            "id": "246",
+                            "title": "",
+                            "fields": {
+                                "body": "<p>Depression is characterised by sadness, loss of interest or pleasure, feelings of guilt or low self-worth, disturbed sleep or appetite, feelings of tiredness, and poor concentration.  It can be long-lasting or recurrent, substantially impairing your ability to function at work, school or coping with daily life.  At its most severe, depression can be a risk factor for suicide.<\/p><h3>Signs\/Symptoms:<\/h3><ul><li>Persistent sad, anxious or empty mood<\/li><li>Self-loathing\/ low self-esteem - feelings of guilt, hopelessness, pessimism<\/li><li>Decreased energy, fatigue, restlessness, irritability<\/li><li>Loss of interest or pleasure in hobbies and activities that were once enjoyable<\/li><li>Difficulty concentrating, remembering, making decisions<\/li><li>Changes in sleep pattern; insomnia, early morning awakening, or oversleeping<\/li><li>Appetite and weight loss, or over-eating and weight gain<\/li><li>Persistent physical symptoms that do not respond to treatment, such as headaches, digestive disorders, chronic pain, aching muscles, stomach pain.<\/li><li>Self-harming \/ suicidal ideation<\/li><\/ul><p>If you are concerned that you may be suffering from depression, speak to your doctor or your Probation Officer. They will be able to signpost you to appropriate services. Medication and talking therapy can be used to treat depression. There are also a lot of self-help materials that can be found online.<\/p><p>Research has demonstrated that exercise has also been proven to help with mild-moderate levels of depression.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "31",
+                    "title": "Helpful Websites",
+                    "fields": {
+                        "icon": "computer"
+                    },
+                    "entries": [
+                        {
+                            "id": "248",
+                            "title": "Action Mental Health",
+                            "fields": {
+                                "website": "www.amh.org.uk"
+                            }
+                        },
+                        {
+                            "id": "249",
+                            "title": "Addiction NI",
+                            "fields": {
+                                "website": "addictionni.com"
+                            }
+                        },
+                        {
+                            "id": "250",
+                            "title": "Aware Defeat Depression",
+                            "fields": {
+                                "website": "www.aware-ni.org"
+                            }
+                        },
+                        {
+                            "id": "251",
+                            "title": "Barnardo's",
+                            "fields": {
+                                "website": "www.barnardos.org.uk\/what_we_do\/barnardos_today\/northernireland.htm"
+                            }
+                        },
+                        {
+                            "id": "252",
+                            "title": "Belfast Addictions Service",
+                            "fields": {
+                                "website": "www.belfasttrust.hscni.net\/BelfastAddictionService.htm"
+                            }
+                        },
+                        {
+                            "id": "253",
+                            "title": "NIAMH",
+                            "fields": {
+                                "website": "www.niamhwellbeing.org"
+                            }
+                        },
+                        {
+                            "id": "254",
+                            "title": "Pips",
+                            "fields": {
+                                "website": "pipscharity.com"
+                            }
+                        },
+                        {
+                            "id": "255",
+                            "title": "Samaritans",
+                            "fields": {
+                                "website": "www.samaritans.org\/branches\/belfast"
+                            }
+                        },
+                        {
+                            "id": "256",
+                            "title": "Women's Aid",
+                            "fields": {
+                                "website": "www.womensaidni.org"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "32",
+                    "title": "Lifeline",
+                    "fields": {
+                        "icon": "lifebelt"
+                    },
+                    "entries": [
+                        {
+                            "id": "247",
+                            "title": "",
+                            "fields": {
+                                "body": "<p>24\/7 free, telephone crisis helpline available to people of all ages. It offers immediate help over the phone all day, every day if you, or someone you know, is in distress or depair.<\/p><p>Website <a href=\"http:\/\/lifelinehelpline.info\" target=\"\">lifelinehelpline.info<\/a><\/p><p>Phone <a href=\"tel:0808 808 8000\" target=\"\">0808 808 8000<\/a><\/p>"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Probation",
+            "fields": {
+                "icon": "doc"
+            },
+            "sections": [
+                {
+                    "id": "1",
+                    "title": "My Probation Officer is writing a Pre-Sentence Report for the Court. What does this mean?",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "1",
+                            "title": "What is a Pre-Sentence Report?",
+                            "fields": {
+                                "body": "<p>If you have been convicted of an offence at court a Probation Officer will write information about you in a report for the Court. This report is called a Pre-Sentence Report or a PSR.<\/p><p>The report is used to assist the court in deciding what the sentence will be in your case.<\/p><p>The contents of the report will be shared with you. If you think anything in the report is incorrect, tell your Probation Officer or Solicitor and he\/she can tell the Court.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "title": "How is the Pre-Sentence Report written?",
+                            "fields": {
+                                "body": "<p>You will have an interview with a Probation Officer\u2014there may be more than 1 interview.  A Probation Officer will arrange a time to interview you. If you are under 18 years old your parents or guardians will be with you.<\/p><p>You must tell the Probation Officer if you cannot make it to the interview by telephoning them or their office. It is up to you to make sure you can go to the interview so that the report can be written for the Court in time.<\/p><p>The Probation Officer will have to tell the Court if you do not turn up for an interview and a report cannot be written.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "title": "What does the Court want to know?",
+                            "fields": {
+                                "body": "<p>The Court wants to know and the Probation Officer will ask you about:<\/p><ul><li>What you think about what you did and what you think about the victims of your offence<\/li><li>Other offences you have been convicted of<\/li><li>Your personal circumstances for example, your family, any addictions or difficulties you have and whether or not you are working.<\/li><\/ul><p>To get all of the information for the report the Probation Officer may have to talk to other people who know you. They will tell you who they need to talk to. The Probation Officer will also talk with you about some of the sentences the Court may choose to give you and what these would mean. The Court will decide what the sentence will be.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "title": "Who sees the PSR?",
+                            "fields": {
+                                "body": "<ul><li>You<\/li><li>The Probation Officer<\/li><li>Your solicitor<\/li><li>The prosecution lawyers<\/li><li>The Judge or Magistrates<\/li><li>If you go to prison or Juvenile Justice Centre or Young Offenders Centre the person in charge there.<\/li><\/ul><p>The victim in your case may get information about your sentence only, NOT any personal information about you.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "title": "What is expected of you?",
+                            "fields": {
+                                "body": "<p>We will treat you with respect and courtesy and will expect the same from you.  We may not interview anyone who we believe to be behaving in an unacceptable way, or whom we believe is under the influence of alcohol or drugs.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "title": "I am on a Probation Order",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "6",
+                            "title": "What is a Probation Order?",
+                            "fields": {
+                                "body": "<p>A Probation Order is an agreement between you and the Court about your future behaviour. It will be made for between six months and three years. A Probation Order can be made in a Youth, Magistrates, Crown or Appeal Court.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "title": "Who supervises the Probation Order?",
+                            "fields": {
+                                "body": "<p>The Probation Board for Northern Ireland has responsibility for the supervision of the Order and you will have a Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "title": "What do I have to do on a Probation Order?",
+                            "fields": {
+                                "body": "<p>You will have to keep appointments with the Probation Officer. This may include visits to your home. You will have to let the Probation Officer know if you move address or change jobs.<\/p><p>You will be expected to stay out of trouble and a plan will be agreed to help you not to reoffend in the future. This plan may include:<\/p><ol><li>Understanding the harm caused to the victim(s).<\/li><li>Undertaking training to improve your work skills.<\/li><li>Undergoing programmes for addiction problems if you drink alcohol or take drugs, or behaviour problems, for example to help with anger management.<\/li><li>Taking part in constructive activity or any useful activity which helps you keep out of trouble, like volunteering, learning new skills, taking up a sport, or joining a club.<\/li><\/ol>"
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "title": "What happens if I do not keep to the Order?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the Order as agreed, your Probation Officer may bring you back to Court.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "10",
+                            "title": "What happens if I re-offend whilst on Probation?",
+                            "fields": {
+                                "body": "<p>Reoffending whilst on probation is a very serious matter. If you re-offend whilst on a Probation Order and the Court finds you guilty of the new offence, a Pre-Sentence Report may be prepared to assist the Court in dealing with the new offence. This will include details of how you have got on during supervision.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "title": "I am on a Combination Order",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "11",
+                            "title": "What is a Combination Order?",
+                            "fields": {
+                                "body": "<p>A Combination Order is a sentence of the Court which combines a Probation Order and a Community Service Order. The period you will be supervised can last from 1 to 3 years.<\/p><p>The Community Service part of the Order can last from 40 to 100 hours and must be completed as instructed. Community service is unpaid work you are required to undertake which will benefit the local community, give you an opportunity to undo some of the harm caused and learn new skills.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "12",
+                            "title": "Who supervises the Combination Order?",
+                            "fields": {
+                                "body": "<p>The Probation Board has overall responsibility for the supervision of your Order and you will have a Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "13",
+                            "title": "What do I have to do if I am on a Combination Order?",
+                            "fields": {
+                                "body": "<p>You will have to keep appointments with your Probation Officer. This may include visits to your home. You will have to let the Probation Officer know if you move address or change jobs. Depending on where you are placed to do your community service, you will be supervised either by staff from the Probation Board or by staff from another organisation. A record will be kept of your attendance, behaviour and work. You will be expected to stay out of trouble and a plan will be agreed to help you not to reoffend in the future. This plan may include:<\/p><ul><li>Understanding the harm caused to the victim(s)<\/li><li>Undertaking training to improve your work skills.<\/li><li>Undergoing programmes for addiction problems if you drink alcohol or take drugs.<\/li><li>Taking part in constructive activity or any useful activity which helps you keep out of trouble, like volunteering, taking up a sport, or joining a club<\/li><li>During the community service part of your Order:<\/li><li>You will be given instructions as to where the work will be done.<\/li><li>You will be given times to start and finish.<\/li><li>You will be told exactly what the work is and what you are expected to do.<\/li><li>You must be punctual, be of good behaviour, and work to the best of your ability.<\/li><li>You must tell the Community Service Officer if you change your address.<\/li><\/ul>"
+                            }
+                        },
+                        {
+                            "id": "14",
+                            "title": "What happens if I do not keep to the Order?",
+                            "fields": {
+                                "body": "<p>If you do not turn up for work as instructed, fail to tell PBNI if you have changed address, do not behave properly at work or fail to carry out the work to the best of your ability, the PBNI may  apply for you to be brought back to Court.<\/p><p>If you cannot attend community service due to illness you must provide medical evidence. Evidence will be required to verify reasons for non-attendance. If you do not keep the conditions of the Order your Probation Officer will bring you back to court.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "title": "I am on a Community Service Order",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "15",
+                            "title": "What is a Community service Order?",
+                            "fields": {
+                                "body": "<p>A Community Service Order can be made by the court when you are found guilty or plead guilty to an offence punishable by imprisonment. If you consent you will be required to carry out unpaid work in the community.  An Order can be made for at least 40 hours and not more than 240 hours. Community service is unpaid work you are required to undertake which will benefit the local community, give you an opportunity to undo some of the harm caused and learn new skills.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "16",
+                            "title": "Who supervises the Community Service Order?",
+                            "fields": {
+                                "body": "<p>The Probation Board has overall responsibility for the supervision of your Order and you will have a Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "17",
+                            "title": "What do I have to do if I am on a Community Service Order?",
+                            "fields": {
+                                "body": "<p>Depending on where you are placed to do your Community Service, you will be supervised either by staff from the Probation Board or by staff from another organisation. A record will be kept of your attendance, conduct and work performance.<\/p><p>If you consent to a Community Service Order:<\/p><ul><li>You will be given instructions as to where the work will be done.<\/li><li>You will be given times to start and finish.<\/li><li>You will be told exactly what the work is and what you are expected to do.<\/li><li>You must be punctual, be of good behaviour and work to the best of your ability.<\/li><li>You must tell the Community Service Officer if you change your address.<\/li><\/ul>"
+                            }
+                        },
+                        {
+                            "id": "18",
+                            "title": "What work will I have to do?",
+                            "fields": {
+                                "body": "<p>There is a wide variety of Community Service work. Examples include labouring, joinery, restoring or refurbishing buildings, working in a charity shop or helping to run a community centre for the elderly. Where possible work will be found to match your capabilities, interests and experience.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "19",
+                            "title": "Where will I work?",
+                            "fields": {
+                                "body": "<p>Every effort will be made to find work in your locality or other suitable location. However there are occasions when work may involve travel.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "20",
+                            "title": "What happens if I cannot attend?",
+                            "fields": {
+                                "body": "<p>You must inform PBNI immediately. Failure to do this could lead to you being returned to court.<\/p><p>You will need to give PBNI evidence for the reasons you did not attend. For example, if you are ill, you will need to provide medical evidence.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "21",
+                            "title": "What happens if I fail to keep to the conditions of the Community Service Order?",
+                            "fields": {
+                                "body": "<p>If you do not turn up for work as instructed, fail to tell your Probation Officer if you have changed address, do not behave properly at work or fail to carry out the work to the best of your ability, your Probation Officer will apply for you to be brought back to Court.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "title": "I am subject to a Curfew and Electronic Monitoring",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "22",
+                            "title": "What is a curfew?",
+                            "fields": {
+                                "body": "<p>The court may impose a curfew and\/or electronic monitoring during part or all of a period of a community order, or electronic monitoring may be a licence condition following release from custody. A curfew means that you must be at a particular place at specified times. This will be for between 2 and 12 hours a day, 1 to 7 days a week, for a minimum of 14 days.<\/p><p>You will be given and end date for your curfew, which will normally be for no more than 90 days. This will be written on your Court Order or Licence. Your curfew may be electronically monitored; this is a way to check that you are where you should be during your curfew.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "23",
+                            "title": "If a curfew is imposed what does my Probation Officer do?",
+                            "fields": {
+                                "body": "<ul><li>Explain the conditions of your order or licence to you and talk to you about your work plan.<\/li><li>Make clear what a sentence and a curfew means for you<\/li><li>Make clear <>where<\/strong> you have to be for your curfew;<\/li><li>Make clear <strong>when<\/strong> you have to be there (the times)<\/li><li>Make clear <strong>what<\/strong> will happen if you do not keep to the conditions of your curfew.<\/li><li>During the curfew the Probation Officer will monitor your compliance with your curfew conditions.<\/li><\/ul>"
+                            }
+                        },
+                        {
+                            "id": "24",
+                            "title": "What does the Service Provider (G4S) do?",
+                            "fields": {
+                                "body": "<p><strong>G4S staff will - <\/strong><\/p><p>Visit you during your first curfew period to fit your tag. The tag is worn on a strap around your ankle, the tag is a bit bigger than a watch.<\/p><p><figure><img src='assets\/tag.jpg' width='91' height='83' \/><\/figure><figcaption>Example - tag<\/figcaption><\/p><p>Place a home monitoring unit at your address, this is about the size of a phone.<\/p><p><figure><img src='assets\/monitoring-unit.jpg' width='98' height='85' \/><\/figure><figcaption>Example - monitoring unit<\/figcaption><\/p><p><strong>G4S staff will -<\/strong><\/p><p>Provide you with a handbook which explains what they do.<\/p><p>G4S staff will always present their ID before entering your home to install the electronic monitoring equipment. They will provide a handbook which outlines what they do.<\/p><p>They will be discreet and respectful. They do not wear uniforms and their vehicles do not have any logos or markings on them.<p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "title": "I am on a Life Licence",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "25",
+                            "title": "What is a Life Licence?",
+                            "fields": {
+                                "body": "<p>Life sentenced prisoners who are released will be subject to a Life Licence with conditions which will remain in place for the rest of their lives. Licence conditions may be added, varied or cancelled in consultation with the Life Sentencing Unit and the Parole Commissioners for Northern Ireland.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "26",
+                            "title": "Who supervises the Life Licence?",
+                            "fields": {
+                                "body": "<p>The Probation Board for Northern Ireland (PBNI) will have responsibility for supervising your Life Licence and you will be assigned a Probation Officer.  You will be assigned a PBNI Psychologist who will review your case on an annual basis and you will be invited to attend a PBNI Assistant Director led review once a year.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "27",
+                            "title": "What do I have to do if I am on a Life Licence?",
+                            "fields": {
+                                "body": "<p>The Parole Commissioners will recommend any licence conditions they feel is necessary to ensure that you can be safely released into the community. You have to comply with the conditions which are specified on the Licence. Most of the conditions are standard such as:<\/p><ul><li>Receiving visits from a Probation Officer;<\/li><li>Residing at an address approved by the Probation Officer;<\/li><li>Undertaking work, including that of a voluntary nature, as approved by the Probation Officer;<\/li><li>Not traveling outside the UK, Channel Islands or the Isle of Man without the prior permission of the Probation Officer, except where you are deported or removed under the Immigration Act;<\/li><li>Obtaining permission of the Probation Officer for any proposed address\/work change;<\/li><li>Not behaving in a way that undermines the purposes of release which are to protect the public, prevent re-offending and rehabilitate; and<\/li><li>Not committing any further offences.<\/li><\/ul><p>There may also be additional conditions, including attendance at a programme to address your offending behaviour or residence at approved premises.<\/p><p>You will be expected to stay out of trouble and a plan will be agreed to assist you to work towards avoiding offending in the future. This may include:<\/p><ol><li>Undertaking training to improve your work skills;<\/li><li>Participating in programmes for addiction problems if you drink alcohol or take drugs;<\/li><li>Taking part in constructive activities or any useful activity which helps you keep out of trouble, like volunteering, taking up a sport, or joining a club.<\/li><\/ol>"
+                            }
+                        },
+                        {
+                            "id": "28",
+                            "title": "What if I do not keep to the conditions of the Licence?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the conditions of your Licence, your Probation Officer may Consider making an application to have your licence revoked.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "7",
+                    "title": "I am on an Article 26 Licence",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "29",
+                            "title": "What is an Article 26 Licence?",
+                            "fields": {
+                                "body": "<p>An Article 26 Licence is imposed by the Court. It means that upon release from custody you will be subject to supervision by a Probation Officer for the duration of your Licence.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "30",
+                            "title": "Who supervises the Article 26 Licence?",
+                            "fields": {
+                                "body": "<p>The Probation Board for Northern Ireland (PBNI) has responsibility for the supervision of Article 26 Licences and you will have a Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "31",
+                            "title": "What do I have to do if I am on an Article 26 Licence?",
+                            "fields": {
+                                "body": "<p>You have to comply with the conditions which are specified on the Licence. These will include keeping appointments with your Probation Officer (including visits to your home). There may also be additional conditions, including attendance at a programme to address your offending behaviour or residence at approved premises. You will be expected to stay out of trouble and a  plan will be agreed to help you not to reoffend in the future. This plan may include:<\/p><ol><li>Understanding the harm caused to the victim(s).<\/li><li>Undertaking training to improve your work skills.<\/li><li>Undergoing programmes for addiction problems if you drink alcohol or take drugs.<\/li><li>Taking part in constructive activity or any useful activity which helps you keep out of trouble, like volunteering, taking up a sport, or joining a club.<\/li><\/ol>"
+                            }
+                        },
+                        {
+                            "id": "32",
+                            "title": "What if I do not keep to the conditions of the Licence?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the conditions of your Licence, your Probation Officer may bring you back to court.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "8",
+                    "title": "I am on a Juvenile Justice Centre Order",
+                    "fields": {
+                        "icon": "doc"
+                    },
+                    "entries": [
+                        {
+                            "id": "33",
+                            "title": "What is a Juvenile Justice Centre Order?",
+                            "fields": {
+                                "body": "<p>A Juvenile Justice Centre Order is a sentence of the court combining a period of detention in a Juvenile Justice Centre and a period of supervision in the community. The Order can be for a minimum period of six months and a maximum of two years. Half of the time is served in a Juvenile Justice Centre and the other half under supervision in the community. The purpose of a Juvenile Justice Centre Order is to help you keep out of trouble and avoid further offending. The relevant legislation is the Criminal Justice (Children) (NI) Order 1998, Article 39.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "34",
+                            "title": "Who supervises the Juvenile Justice Centre Order?",
+                            "fields": {
+                                "body": "<p>The Order is delivered by a partnership between the Youth Justice Agency and the Probation Board for Northern Ireland. Primary authority and responsibility will rest with the Youth Justice Agency during both the custodial phase and the community phase. The Probation Board for Northern Ireland will be kept informed of your progress and will return the order to court if you do not keep to the conditions of the JJCO.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "35",
+                            "title": "What do I have to do if I am on a Juvenile Justice Centre Order?",
+                            "fields": {
+                                "body": "<p>You will initially spend time at the Juvenile Justice Centre. This is run by the Youth Justice Agency and is a place for the detention of young people, up to the age of 18, who have offended. Whilst there, you will be given support and education and training to help you prepare for your release. You will be assigned a Probation officer, however under a current pilot, the Youth Justice Agency will retain responsibility for your supervision in the community.<\/p><p>When you are released, you will meet regularly with them and you will be involved in a programme which will focus on:<\/p><ul><li>Helping you to stay out of trouble,<\/li><li>Understanding the harm caused to the victim(s),<\/li><li>personal development.<\/li><\/ul><p>This will probably include group work, activities, education and\/or training or work placement.<\/p><p>During your time in custody you must comply with all the requirements of the custody\/community plan. Whilst in the community, you must keep appointments with your Youth Justice Officer. He\/she will also keep in contact with an adult who has parental responsibility for you. They will keep the Probation Officer updated of your progress on the order.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "36",
+                            "title": "What happens if I do not keep to the Order?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the Order you may be taken back to court.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "9",
+                    "title": "I am on a Determinate Custodial Sentence",
+                    "fields": {
+                        "icon": "gabble"
+                    },
+                    "entries": [
+                        {
+                            "id": "37",
+                            "title": "What is a Determinate Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>A Determinate Custodial Sentence is applied where the sentence you have received is a tariff of 12 months or more. The judge will define how much of your sentence is to be spent in prison (up to half the full tariff) with the rest on licence. On your release you will be subject to a set of licence conditions of the Court.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "38",
+                            "title": "Who supervises the Determinate Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>During the custodial part of the sentence you will be assigned a Co-ordinator based within the Prison or Hydebank College Prisoner Development Unit (Probation Officer or Prison Officer).  Following release the licence part of the sentence will be supervised by the Probation Board for Northern Ireland. During this period on licence you will be assigned a community based Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "39",
+                            "title": "What do I have to do if I am on a Determinate Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>You will spend no more than half your tariff in custody The rest of your tariff will be spent in the community on licence being supervised by a Probation Officer.<\/p><p>When you are released from custody, you will have a number of conditions that you must adhere to.  Most conditions are standard, such as,<\/p><ul><li>Reporting to a Probation Officer;<\/li><li>Receiving visits from a Probation Officer;<\/li><li>Residing at an address approved by the Probation Officer;<\/li><li>Undertaking work, including that of a voluntary nature, as approved by the Probation Officer;<\/li><li>Not traveling outside the UK, Channel Islands or the Isle of Man without the prior permission of the Probation Officer, except where you are deported or removed under the Immigration Act;<\/li><li>Obtaining permission of the Probation Officer for any proposed address\/work change;<\/li><li>Not behaving in a way that undermines the purposes of release which are to protect the public, prevent re-offending and rehabilitate; and<\/li><li>Not committing any further offences.<\/li><\/ul><p>There may be other conditions instead of or in addition to these already mentioned.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "40",
+                            "title": "What happens if I do not keep to the conditions of my licence?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the conditions of your licence you may be recalled to prison.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "title": "I am on an Extended Custodial Sentence",
+                    "fields": {
+                        "icon": "gabble"
+                    },
+                    "entries": [
+                        {
+                            "id": "41",
+                            "title": "What is an Extended Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>An Extended Custodial Sentence can be used for serious sexual and violent offences that carry a penalty of less than 10 years. This sentence applies to specified offences committed after 15 May 2008. You will serve a minimum period of time in prison before being considered for release and this will be no less than 1 year. The court may set extended supervised licence periods of up to 8 years for sexual offences or 5 years for violent offence.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "42",
+                            "title": "Who supervises the Extended Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>During the custodial part of the sentence you will be assigned a Co-ordinator based within the Prison or Hydebank College Prisoner Development Unit (Probation Officer or Prison Officer).Following release the licence part of your  sentence will be supervised by the Probation Board for Northern Ireland. During this period on licence you will be assigned a Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "43",
+                            "title": "What do I have to do on an Extended Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>When you are released from custody, you will have a number of conditions that you must follow.  Most conditions are standard, such as,<\/p><ul><li>Reporting to a Probation Officer;<\/li><li>Receiving visits from a Probation Officer;<\/li><li>Residing at an address approved by the Probation Officer;<\/li><li>Undertaking work, including that of a voluntary nature, as approved by the Probation Officer;<\/li><li>Not traveling outside the UK, Channel Islands or the Isle of Man without the prior permission of the Probation Officer, except where you are deported or removed under the Immigration Act;<\/li><li>Obtaining permission of the Probation Officer for any proposed address\/work change;<\/li><li>Not behaving in a way that undermines the purposes of release which are to protect the public, prevent re-offending and rehabilitate; and<\/li><li>Not committing any further offences.<\/li><\/ul><p>Additional conditions may also be applied by the Secretary of State.<\/p><p>You will be expected to stay out of trouble whilst on licence.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "44",
+                            "title": "What happens if I do not keep to the Order?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the conditions in your licence you may be recalled to prison.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "11",
+                    "title": "I am on an Indeterminate Custodial Sentence",
+                    "fields": {
+                        "icon": "gabble"
+                    },
+                    "entries": [
+                        {
+                            "id": "45",
+                            "title": "What is an Indeterminate Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>An Indeterminate Custodial Sentence can be used for the most serious sexual and violent offences, those which carry a penalty of 10 years or more, and can mean that you can, potentially, be imprisoned for life. This sentence applies to specified offences committed after 15 May 2008. You will serve a minimum period of time in prison before being considered for release and this will be no less than 2 years. Approximately 6 months before the tariff date, the matter will be referred to the Parole Commissioners who will assess your suitability to be released into the community.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "46",
+                            "title": "Who supervises the Indeterminate Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>During the custodial part of the sentence this you will be assigned a Co-ordinator based within the Prison or Hydebank College Prisoner Development Unit (Probation Officer or Prison Officer).The licence part of the sentence will be supervised by the Probation Board for Northern Ireland. During this period on licence you will be assigned a Probation Officer.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "47",
+                            "title": "What do I have to do if subject to an Indeterminate Custodial Sentence?",
+                            "fields": {
+                                "body": "<p>You will not be given remission if you are on an Indeterminate Custodial Sentence and you may be subject to its conditions for the rest of your life. When you are released from custody, you will have a number of conditions that you must follow.  Most conditions are standard, such as,<\/p><ul><li>Reporting to a Probation Officer;<\/li><li>Receiving visits from a Probation Officer;<\/li><li>Residing at an address approved by the Probation Officer;<\/li><li>Undertaking work, including that of a voluntary nature, as approved by the Probation Officer;<\/li><li>Not traveling outside the UK, Channel Islands or the Isle of Man without the prior permission of the Probation Officer, except where you are deported or removed under the Immigration Act;<\/li><li>Obtaining permission of the Probation Officer for any proposed address\/work change;<\/li><li>Not behaving in a way that undermines the purposes of release which are to protect the public, prevent re-offending and rehabilitate; and<\/li><li>Not committing any further offences.<\/li><\/ul><p>Additional conditions may also be applied by the Secretary of State.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "48",
+                            "title": "What happens if I do not keep to the Order?",
+                            "fields": {
+                                "body": "<p>If you do not keep to the conditions in your licence you may be recalled to prison.<\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "title": "Complaints Procedure",
+                    "fields": {
+                        "icon": "gabble"
+                    },
+                    "entries": [
+                        {
+                            "id": "49",
+                            "title": "Complaints Procedure",
+                            "fields": {
+                                "body": "<p>If you are dissatisfied with our service you have the right to complain and will not suffer any disadvantage or discrimination because you have made a complaint.<\/p><ol><li>Complaints will be thoroughly and fairly investigated.<\/li><li>You will be kept informed of the progress of the investigation and told of the outcome.<\/li><li>We will make every effort to resolve complaints and believe that the steps set out in our procedures represent the best way to do that.<\/li><\/ol>"
+                            }
+                        },
+                        {
+                            "id": "50",
+                            "title": "Local Informal Resolution",
+                            "fields": {
+                                "body": "<p>We believe that as far as possible, complaints should be resolved through local informal resolution. Complaints must in the first instance be made either verbally or in writing with a member of staff in the local office or with the local manager.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "51",
+                            "title": "Formal Complaints Procedure",
+                            "fields": {
+                                "body": "<p>After raising your complaint with the local office and receiving their response, if you are still not satisfied, you may proceed to a formal complaint.<\/p><p>To make a formal complaint, you can either:<\/p><p>Complete the<br \/><a href=\"http:\/\/www.pbni.org.uk\/complaints-procedure\/online-complaints-form\">online complaints form<\/a><\/p><p>Or write to or email the Complaints Officer at the details below:<\/p><p>The Complaints Officer<br \/>Probation Board for Northern Ireland<br \/>80-90 North Street<br \/>Belfast<br \/>BT1 1LD<br \/>Email:<br \/><a href=\"mailto:complaints@pbni.gsi.gov.uk\">complaints@pbni.gsi.gov.uk<\/a><\/p><p>To help us investigate your complaint, it is important that you give as much detail as possible. This should include:<\/p><ul><li>What is your complaint about?<\/li><li>When did it happen?<\/li><li>What do you think should be done to put things right?<\/li><li>Please give details of any special needs we need to bear in mind when we are dealing with your complaint or communicating with you.<\/li><li>If you have already complained about this issue please tell us who you raised it with and what action they took?<\/li><\/ul><p>The Complaints Officer will appoint a manager to investigate your complaint.<\/p><p>If you are still not satisfied, you can ask the Complaints Officer for an Internal Review.<\/p><\/p>If you are still not satisfied, you may be able to complain to an external independent body. Ask our staff for further advice.<\/p>"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "Victims",
+            "fields": {
+                "icon": "user"
+            },
+            "sections": [
+                {
+                    "id": "14",
+                    "title": "Prison Release Victim Information Scheme",
+                    "fields": {
+                        "icon": "user"
+                    },
+                    "entries": [
+                        {
+                            "id": "62",
+                            "title": "Introduction",
+                            "fields": {
+                                "body": "<p>Participation in the Prison Release & PBNI Victim Information Schemes is entirely voluntary. Victims can change their mind and opt out of the Scheme at any time by contacting the Victim Information Unit.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "63",
+                            "title": "Who is Eligible for the Prison Release Victim Information Scheme?",
+                            "fields": {
+                                "body": "<p>To benefit from the <strong>Prison Release Victim Information Scheme<\/strong> a person must have been the victim of a crime which has resulted in an offender being sentenced to a term of imprisonment.<\/p><p>A victim may be eligible to participate in the scheme if:<\/p><ul><li>He\/she is the victim of the offence for which the offender was imprisoned;<\/li><li>He\/she is not the victim but is the next of kin; is an immediate family member, or has a close relationship with someone who has died as a result of the crime;<\/li><li>He\/she is acting on behalf of a victim when that person is unable to act on their own behalf. This would include a close family member or legal guardian on behalf of a child; or for example, a carer acting on behalf of an ill or incapacitated person.<\/li><\/ul><p>If someone is acting on behalf of a victim they will be required to provide the written consent of the victim where that is possible and\/or appropriate.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "64",
+                            "title": "How does the Scheme work?",
+                            "fields": {
+                                "body": "<p><strong>The Prison Release Victim Information Scheme applies only to Adult Prisoners sentenced to at least one sentence of six months or more;<\/strong> or permanently transferred to serve their sentence in Northern Ireland.<\/p><p>Sentences of less than 6 months <strong>are not<\/strong> part of the scheme nor are cases where a prisoner received a number of sentences of less than 6 months. An Adult prisoner is a person over 18 years.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "65",
+                            "title": "What can the Scheme Provide?",
+                            "fields": {
+                                "body": "<p><strong>The Prison Release Victim Information Scheme<\/strong> provides information on a prisoner's final discharge or temporary release from prison.<\/p><p>A victim can receive information on the prisoner's discharge which includes:<\/p><ul><li>The month and year in which a prisoner is expected to be discharged; Any conditions of release to be imposed;<\/li><li>Any breaches of those conditions which might result in the prisoner's return to custody;<\/li><li>For cases referred to the Parole Commissioners for a decision on release you can be:<ul><li>told the prisoner's case is being considered by the Commissioners;<\/li><li>given the opportunity to submit your views\/concerns;<\/li><li>informed of the Commissioner's decision and if it is to release the prisoner of the licensing arrangements which apply to that offender.<\/li><\/ul><\/li><\/ul><p>A victim can also be told of temporary release the prisoner is granted during the course of the sentence.<\/p><p><strong>It should be noted that it may not always be possible to provide information in advance of a prisoner's temporary release. On occasions, urgent applications may be considered on compassionate grounds. Victims may occasionally have to be told of temporary release after it has occurred.<\/strong><\/p>"
+                            }
+                        },
+                        {
+                            "id": "66",
+                            "title": "How Do I Apply?",
+                            "fields": {
+                                "body": "<p>You can apply by contacting the <strong>Victim Information Unit<\/strong><\/p><p>Unit 4, Wallace Studios<br \/>27 Wallace Avenue<br \/>Lisburn<br \/>BT27 4AE<br \/>Tel: <a href=\"tel:0300 123 3269\">0300 123 3269<\/a><br \/>Fax: 0300 123 3271<\/p><p>email: <br \/><a href=\"mailto:victiminfo@pbni.gsi.gov.uk\">victiminfo@pbni.gsi.gov.uk<\/a> or online at <a href=\"http:\/\/www.nidirect.gov.uk\/prisonerrelease-victim-information-scheme\">nidirect.gov.uk<\/a><p>More information can be found at <a href=\"http:\/\/www.pbni.org.uk\/what-we-do\/victim-information-scheme\">pbni.org.uk<\/a><\/p>"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "15",
+                    "title": "PBNI Victim Information Scheme",
+                    "fields": {
+                        "icon": "user"
+                    },
+                    "entries": [
+                        {
+                            "id": "67",
+                            "title": "Introduction",
+                            "fields": {
+                                "body": "Participation in both PRVIS & PBNI Victim Information Schemes is entirely voluntary. Victims can change their mind and opt out of the Scheme at any time by contacting the Victim Information Unit."
+                            }
+                        },
+                        {
+                            "id": "68",
+                            "title": "Who is Eligible for the PBNI Victim Information Scheme?",
+                            "fields": {
+                                "body": "<p><strong>The PBNI Victim Information Scheme<\/strong> is available to any person (or agreed representative) who has been the direct victim of a criminal offence for which the offender received a Probation Supervised Sentence.<\/p><p>When an offender is sentenced to both custody and community supervision the PBNI Victim Information Scheme will work in partnership with the PRVIS Victim Information Scheme.<\/p><p><strong>Victim Support NI<\/strong> can act as an independent representative. You can contact them on <strong><a href=\"tel:028 9024 4039\">028 9024 4039<\/a><\/strong> or by emailing <a href=\"mailto:info@victimsupportni.org.uk\">info@victimsupportni.org.uk<\/a><\/p>"
+                            }
+                        },
+                        {
+                            "id": "69",
+                            "title": "How does the Scheme work?",
+                            "fields": {
+                                "body": "<p><strong>PBNI Victim Information Scheme<\/strong> - If, following conviction, the person who committed the offence against you received a Probation Supervised Sentence from the court, you will be advised about the scheme. The offender <strong>will not<\/strong> be informed of this registration.<\/p>"
+                            }
+                        },
+                        {
+                            "id": "70",
+                            "title": "What can the Scheme Provide?",
+                            "fields": {
+                                "body": "<p>PBNI Victim Information Scheme provides the following:<\/p><ul><li>Opportunity for you to participate in the preparation of a Victim Report for the Parole Commissioners.<\/li><li>Information about specific sentence in your case and general information about PBNI\u2019s supervision of offenders.<\/li><li>Opportunity to discuss your concerns, which may inform the management of the offender.<\/li><li>Information provided in writing, by phone or in a face-to-face meeting with a VLO.<\/li><li>Information can be provided, if appropriate, about other organisations who may be able to offer specific support to you.<\/li><li>Opportunity to be involved in direct or indirect restorative contact with the offender if this would help you address issues resulting from the offence.<\/li><\/ul>"
+                            }
+                        },
+                        {
+                            "id": "71",
+                            "title": "How Do I Apply?",
+                            "fields": {
+                                "body": "<p>You can apply by contacting the <strong>Victim Information Unit<\/strong><\/p><p>Unit 4, Wallace Studios<br \/>27 Wallace Avenue<br \/>Lisburn<br \/>BT27 4AE<br \/>Tel: <a href=\"tel:0300 123 3269\">0300 123 3269<\/a><br \/>Fax: 0300 123 3271<\/p><p>email: <br \/><a href=\"mailto:victiminfo@pbni.gsi.gov.uk\">victiminfo@pbni.gsi.gov.uk<\/a> or online at <a href=\"http:\/\/www.pbni.org.uk\/wp-content\/uploads\/2015\/11\/PBNI-NIPS-Victims-leaflet-final-May-2015.pdf\">pbni.org.uk<\/a><\/p><p>More information can be found at <a href=\"http:\/\/www.pbni.org.uk\/what-we-do\/victim-information-scheme\/\">pbni.org.uk<\/a><\/p>"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Addiction",
+            "fields": {
+                "icon": "medication"
+            },
+            "sections": [
+                {
+                    "id": "13",
+                    "title": "10 tips for overcoming addiction",
+                    "fields": {
+                        "icon": "medication"
+                    },
+                    "entries": [
+                        {
+                            "id": "52",
+                            "title": "Talk about it.",
+                            "fields": {
+                                "body": "Talking about addiction can be the first step towards recovery. It's easy to feel isolated. Speak with people you trust: friends or family, your doctor or Probation Officer. Make use of the support systems around you."
+                            }
+                        },
+                        {
+                            "id": "53",
+                            "title": "Make your recovery a priority.",
+                            "fields": {
+                                "body": "Put yourself first! Keep in touch with people who can provide sound advice and guidance. Find out what services are available in your local area and how you can access them."
+                            }
+                        },
+                        {
+                            "id": "54",
+                            "title": "Give yourself time.",
+                            "fields": {
+                                "body": "Don't put pressure on yourself that changes will happen over night. Recovery is a process and it can be a difficult one that takes time. Spend time finding out what works or doesn't work for you."
+                            }
+                        },
+                        {
+                            "id": "55",
+                            "title": "Take it one day at a time.",
+                            "fields": {
+                                "body": "Every day is a new day and an opportunity to start over. Overcoming addiction often takes a number attempts. Don't give up just because you have had a relapse."
+                            }
+                        },
+                        {
+                            "id": "56",
+                            "title": "Join a support group.",
+                            "fields": {
+                                "body": "AA (alcoholics anonymous) or NA (narcotics anonymous), and another types of support groups can help reduce feelings of isolation and increase support systems. Meetings are held in lots of different locations both during the day and in the evening. It can be helpful to hear about other people's experiences."
+                            }
+                        },
+                        {
+                            "id": "57",
+                            "title": "Try something new.",
+                            "fields": {
+                                "body": "Replace old habits with new ones. It can be difficult to change patterns of behaviour we are used to. You never know what's going to work for you unless you try different things. Ask people for ideas."
+                            }
+                        },
+                        {
+                            "id": "58",
+                            "title": "Change your environment.",
+                            "fields": {
+                                "body": "Try and avoid people and places that make it difficult to maintain the positive changes you are making. Surround yourself with positive people, things and experiences."
+                            }
+                        },
+                        {
+                            "id": "59",
+                            "title": "Get out and exercise.",
+                            "fields": {
+                                "body": "Get yourself down to the gym, go for a run or even just out for a walk. This can be a helpful distraction and half an hour, a few times a week can improve your mood as well as your physical fitness."
+                            }
+                        },
+                        {
+                            "id": "60",
+                            "title": "Look after your health.",
+                            "fields": {
+                                "body": "A healthy lifestyle aids and promotes recovery. Healthy eating habits and regular sleep patterns can also improve your mental psychical health."
+                            }
+                        },
+                        {
+                            "id": "61",
+                            "title": "Is there more to this?",
+                            "fields": {
+                                "body": "Looking at the emotions underneath your addiction can be an important part of the recovery process. Counsellors or therapists are trained to support people with this and can help to identify and address initial causes or core issues that may be unresolved."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Contacts",
+            "fields": {
+                "icon": "phone"
+            },
+            "sections": [
+                {
+                    "id": "23",
+                    "title": "PBNI Offices",
+                    "fields": {
+                        "description": "Office Listings",
+                        "icon": "phone"
+                    },
+                    "entries": [
+                        {
+                            "id": "179",
+                            "title": "Central Belfast",
+                            "fields": {
+                                "address": "80-90 North Street, Belfast, BT1 1LD",
+                                "description": "Headquarters",
+                                "email": "info@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3290",
+                                "notes": "Opening times are 9am to 5pm\u00a0",
+                                "phone": "028 9026 2400"
+                            }
+                        },
+                        {
+                            "id": "180",
+                            "title": "East Belfast",
+                            "fields": {
+                                "address": "297 Newtownards Road, Belfast, BT4 1AG",
+                                "email": "admin.newtownardsroad@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3277",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 9073 9445"
+                            }
+                        },
+                        {
+                            "id": "181",
+                            "title": "West Belfast",
+                            "fields": {
+                                "address": "Glenshane House , 202a Andersonstown Road, Belfast, BT11 9EB",
+                                "email": "admin.andersonstown@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3276",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 9060 2988"
+                            }
+                        },
+                        {
+                            "id": "182",
+                            "title": "South Belfast",
+                            "fields": {
+                                "address": "330 Ormeau Road, Belfast, BT7 2GE",
+                                "email": "admin.ormeau@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3277",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 9064 7156"
+                            }
+                        },
+                        {
+                            "id": "183",
+                            "title": "North Belfast",
+                            "fields": {
+                                "address": "306 Antrim Road, Belfast, BT15 5AB",
+                                "email": "admin.antrimroad@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3275",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 9075 7631"
+                            }
+                        },
+                        {
+                            "id": "184",
+                            "title": "Lisburn",
+                            "fields": {
+                                "address": "Unit 4, Wallace Studios, 27 Wallace Avenue, Lisburn, BT27 4AE",
+                                "email": "admin.lisburn@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3276",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 9267 4211"
+                            }
+                        },
+                        {
+                            "id": "185",
+                            "title": "Newtownards",
+                            "fields": {
+                                "address": "15 Castle Street, Newtownards, County Down, BT23 7PA",
+                                "email": "admin.newtownards@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3277",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 9181 7778"
+                            }
+                        },
+                        {
+                            "id": "186",
+                            "title": "Downpatrick",
+                            "fields": {
+                                "address": "3 Gaol Lane,Demesne of Down Acre,Downpatrick,BT30 6BD",
+                                "fax": "0300 123 3277",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 44612553"
+                            }
+                        },
+                        {
+                            "id": "187",
+                            "title": "Ballymena",
+                            "fields": {
+                                "address": "3 Wellington Court, Ballymena, BT43 6EQ",
+                                "email": "admin.ballymena@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3278",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 2565 2549"
+                            }
+                        },
+                        {
+                            "id": "188",
+                            "title": "Coleraine",
+                            "fields": {
+                                "address": "12 Lodge Road, Coleraine, County Londonderry, BT52 1NB",
+                                "email": "admin.coleraine@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3278",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 7035 3141"
+                            }
+                        },
+                        {
+                            "id": "189",
+                            "title": "Larne Reporting Centre",
+                            "fields": {
+                                "address": "1 Curran Road, Larne, BT40 1BS",
+                                "description": "Contact Ballymena",
+                                "phone": "028 2565 2549"
+                            }
+                        },
+                        {
+                            "id": "190",
+                            "title": "Derry\/Londonderry Cityside",
+                            "fields": {
+                                "address": "8 Crawford Square, Londonderry, BT48 7HR",
+                                "email": "admin.crawford.square@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3280",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 7126 4774"
+                            }
+                        },
+                        {
+                            "id": "191",
+                            "title": "Derry\/Londonderry Waterside",
+                            "fields": {
+                                "address": "7 Limavady Road, Londonderry, BT47 6JU",
+                                "email": "admin.waterside@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3280",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 7134 6701"
+                            }
+                        },
+                        {
+                            "id": "192",
+                            "title": "Strabane Reporting Centre",
+                            "fields": {
+                                "address": "39 Bowling Green, Strabane, Co Tyrone, BT82 8BW",
+                                "description": "Contact Derry\/Londonderry Waterside",
+                                "phone": "028 7134 6701"
+                            }
+                        },
+                        {
+                            "id": "193",
+                            "title": "Magherafelt",
+                            "fields": {
+                                "address": "9 Kirk Avenue, Magherafelt, BT45 6BT",
+                                "email": "admin.magherafelt@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3279",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 7963 3341"
+                            }
+                        },
+                        {
+                            "id": "194",
+                            "title": "Dungannon",
+                            "fields": {
+                                "address": "2 Feeney's Lane, Dungannon, County Tyrone, BT70 1TX",
+                                "email": "admin.dungannon@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3279",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 8772 2866"
+                            }
+                        },
+                        {
+                            "id": "195",
+                            "title": "Armagh",
+                            "fields": {
+                                "address": "25 College Street, Armagh, BT61 9BT",
+                                "email": "admin.armagh@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3279",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 3752 5243"
+                            }
+                        },
+                        {
+                            "id": "196",
+                            "title": "Newry",
+                            "fields": {
+                                "address": "1d Monaghan Street, Newry, County Down, BT35 6BB",
+                                "email": "admin.newry@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3281",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 3026 3955"
+                            }
+                        },
+                        {
+                            "id": "197",
+                            "title": "Portadown",
+                            "fields": {
+                                "address": "12 Church Street, Portadown, Co. Armagh, BT62 3LQ",
+                                "email": "admin.portadown@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3281",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 3833 3301"
+                            }
+                        },
+                        {
+                            "id": "198",
+                            "title": "Omagh",
+                            "fields": {
+                                "address": "11a High Street, Omagh, County Tyrone, BT78 1BA",
+                                "email": "admin.omagh@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3282",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 8224 6051"
+                            }
+                        },
+                        {
+                            "id": "199",
+                            "title": "Enniskillen",
+                            "fields": {
+                                "address": "14 Dublin Road, Cathcart Square, Enniskillen, BT74 6HJ",
+                                "email": "admin.enniskillen@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3282",
+                                "notes": "Opening times are 9am to 5pm",
+                                "phone": "028 6632 4383"
+                            }
+                        },
+                        {
+                            "id": "200",
+                            "title": "ISU Alderwood House",
+                            "fields": {
+                                "address": "Purdysburn Road, Belfast, BT8 7SL",
+                                "description": "Hydebank Wood",
+                                "email": "admin.alderwood@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3273",
+                                "phone": "028 9064 4953"
+                            }
+                        },
+                        {
+                            "id": "201",
+                            "title": "Programme Delivery Unit",
+                            "fields": {
+                                "address": "1st Floor Headquarters, 80-90 North Street, Belfast,\u00a0BT1 1LD",
+                                "description": "Specialist Team",
+                                "email": "admin.pdu@pbni.gsi.gov.uk",
+                                "phone": "028 9026 2414"
+                            }
+                        },
+                        {
+                            "id": "202",
+                            "title": "Public Protection Team",
+                            "fields": {
+                                "address": "151 Belfast Road, Carrickfergus, BT38 8PL",
+                                "description": "PSNI Seapark",
+                                "email": "admin.PPT@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3274",
+                                "phone": "028 9025 9576"
+                            }
+                        },
+                        {
+                            "id": "203",
+                            "title": "Victim Information Unit",
+                            "fields": {
+                                "address": "27 Wallace Avenue, Lisburn, BT27 4AE",
+                                "description": "Unit 4, Wallace Studios",
+                                "email": "victiminfo@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3271",
+                                "phone": "0300 123 3269"
+                            }
+                        },
+                        {
+                            "id": "204",
+                            "title": "Inspire Women's Project",
+                            "fields": {
+                                "address": "4th Floor, 41-43 Waring Street, Belfast, BT1 2DY",
+                                "description": "PBNI",
+                                "email": "admin.inspire@pbni.gsi.gov.uk",
+                                "phone": "028 9031 6489"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "22",
+                    "title": "PBNI Prison Teams",
+                    "fields": {
+                        "description": "List of PBNI prison teams",
+                        "icon": "phone"
+                    },
+                    "entries": [
+                        {
+                            "id": "176",
+                            "title": "HMP Maghaberry",
+                            "fields": {
+                                "address": "Lisburn, BT28 2NF",
+                                "email": "admin.maghaberry@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3284",
+                                "phone": "028 9261 6772"
+                            }
+                        },
+                        {
+                            "id": "177",
+                            "title": "HMP Magilligan",
+                            "fields": {
+                                "address": "Limavady, BT49 0LR",
+                                "email": "admin.magilligan@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3285",
+                                "phone": "028 7772 0583"
+                            }
+                        },
+                        {
+                            "id": "178",
+                            "title": "HMP Hydebank",
+                            "fields": {
+                                "address": "Hospital Road, Belfast, BT8 8NA",
+                                "email": "admin.hydebank@pbni.gsi.gov.uk",
+                                "fax": "0300 123 3283",
+                                "phone": "028 9049 4100"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "24",
+                    "title": "Social Security Offices",
+                    "fields": {
+                        "description": "Social Security Offices Belfast",
+                        "icon": "phone"
+                    },
+                    "entries": [
+                        {
+                            "id": "205",
+                            "title": "Andersonstown",
+                            "fields": {
+                                "description": "35 Slieveban Drive",
+                                "phone": "028 90 542700"
+                            }
+                        },
+                        {
+                            "id": "206",
+                            "title": "Corporation St",
+                            "fields": {
+                                "description": "22 Corporation Street",
+                                "phone": "028 90 251411"
+                            }
+                        },
+                        {
+                            "id": "207",
+                            "title": "Falls Road",
+                            "fields": {
+                                "description": "Belfast",
+                                "phone": "028 90 542800"
+                            }
+                        },
+                        {
+                            "id": "208",
+                            "title": "Holywood Rd",
+                            "fields": {
+                                "description": "106 Holywood Rd",
+                                "phone": "028 90 528900"
+                            }
+                        },
+                        {
+                            "id": "209",
+                            "title": "Knockbreda",
+                            "fields": {
+                                "description": "Upper Knockbreda Rd",
+                                "phone": "028 90 545600"
+                            }
+                        },
+                        {
+                            "id": "210",
+                            "title": "Shankill",
+                            "fields": {
+                                "description": "15 Snugville St",
+                                "phone": "028 90 251456"
+                            }
+                        },
+                        {
+                            "id": "211",
+                            "title": "Shaftesbury Square",
+                            "fields": {
+                                "description": "Conor Biildings",
+                                "phone": "028 90 545500"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "25",
+                    "title": "Social Security Offices",
+                    "fields": {
+                        "description": "Outside Belfast",
+                        "icon": "phone"
+                    },
+                    "entries": [
+                        {
+                            "id": "212",
+                            "title": "Antrim",
+                            "fields": {
+                                "description": "Castle St, Antrim",
+                                "phone": "02894 426500"
+                            }
+                        },
+                        {
+                            "id": "213",
+                            "title": "Armagh",
+                            "fields": {
+                                "description": "Alexander St, Armagh",
+                                "phone": "02837 529777"
+                            }
+                        },
+                        {
+                            "id": "214",
+                            "title": "Ballyclare",
+                            "fields": {
+                                "description": "29 Hillhead Rd, Ballyclare",
+                                "phone": "02893 352822"
+                            }
+                        },
+                        {
+                            "id": "215",
+                            "title": "Ballymena",
+                            "fields": {
+                                "description": "Twickenham House, Mount St",
+                                "phone": "02825 662700"
+                            }
+                        },
+                        {
+                            "id": "216",
+                            "title": "Ballymoney",
+                            "fields": {
+                                "description": "John St, Ballymoney",
+                                "phone": "028276 60100"
+                            }
+                        },
+                        {
+                            "id": "217",
+                            "title": "Crossgar Rd",
+                            "fields": {
+                                "description": "Ballynahinch",
+                                "phone": "02897 560500"
+                            }
+                        },
+                        {
+                            "id": "218",
+                            "title": "Banbridge",
+                            "fields": {
+                                "description": "Castlewellan Rd, Banbridge",
+                                "phone": "028406 20800"
+                            }
+                        },
+                        {
+                            "id": "219",
+                            "title": "Bangor",
+                            "fields": {
+                                "description": "Hamilton Rd, Bangor",
+                                "phone": "02891 279500"
+                            }
+                        },
+                        {
+                            "id": "220",
+                            "title": "Carrickfergus",
+                            "fields": {
+                                "description": "Davy St, Carrickfergus",
+                                "phone": "02893 351811"
+                            }
+                        },
+                        {
+                            "id": "221",
+                            "title": "Coleraine",
+                            "fields": {
+                                "description": "Artillery Rd, Coleraine",
+                                "phone": "028703 41000"
+                            }
+                        },
+                        {
+                            "id": "222",
+                            "title": "Cookstown",
+                            "fields": {
+                                "description": "Fairhill, Cookstown",
+                                "phone": "028867 68000"
+                            }
+                        },
+                        {
+                            "id": "223",
+                            "title": "Downpatrick",
+                            "fields": {
+                                "description": "Mount Crescent, Downpatrick",
+                                "phone": "02844 611300"
+                            }
+                        },
+                        {
+                            "id": "224",
+                            "title": "Dungannon",
+                            "fields": {
+                                "description": "Thomas St, Dungannon",
+                                "phone": "02887 754754"
+                            }
+                        },
+                        {
+                            "id": "225",
+                            "title": "Enniskillen",
+                            "fields": {
+                                "description": "Crown Buildings, Queen Elizabeth Rd",
+                                "phone": "02866 343333"
+                            }
+                        },
+                        {
+                            "id": "226",
+                            "title": "Foyle",
+                            "fields": {
+                                "description": "Asylum Rd, Derry",
+                                "phone": "02871 319500"
+                            }
+                        },
+                        {
+                            "id": "227",
+                            "title": "Kilkeel",
+                            "fields": {
+                                "description": "Newry St, Kilkeel",
+                                "phone": "02841 62353"
+                            }
+                        },
+                        {
+                            "id": "228",
+                            "title": "Larne",
+                            "fields": {
+                                "description": "Point St, Larne",
+                                "phone": "02828 263200"
+                            }
+                        },
+                        {
+                            "id": "229",
+                            "title": "Limavady",
+                            "fields": {
+                                "description": "9 Connell St, Limavady",
+                                "phone": "028777 60500"
+                            }
+                        },
+                        {
+                            "id": "230",
+                            "title": "Limavady",
+                            "fields": {
+                                "description": "9 Connell St, Limavady",
+                                "phone": "028777 60500"
+                            }
+                        },
+                        {
+                            "id": "231",
+                            "title": "Lisburn",
+                            "fields": {
+                                "description": "71 Bow St, Lisburn",
+                                "phone": "02892 623300"
+                            }
+                        },
+                        {
+                            "id": "232",
+                            "title": "Lisnagelvin",
+                            "fields": {
+                                "description": "2 Crescent Rd, Derry",
+                                "phone": "02871 319300"
+                            }
+                        },
+                        {
+                            "id": "233",
+                            "title": "Lurgan",
+                            "fields": {
+                                "description": "2 Alexandra Crescent, Craigavon",
+                                "phone": "02838 315600"
+                            }
+                        },
+                        {
+                            "id": "234",
+                            "title": "Magherafelt",
+                            "fields": {
+                                "description": "31 Station Rd, Magherafelt",
+                                "phone": "02879 302000"
+                            }
+                        },
+                        {
+                            "id": "235",
+                            "title": "Newcastle",
+                            "fields": {
+                                "description": "Valentia Place, Newcastle",
+                                "phone": "02843 721600"
+                            }
+                        },
+                        {
+                            "id": "236",
+                            "title": "Newry",
+                            "fields": {
+                                "description": "Bridge St, Newry",
+                                "phone": "028302 65522"
+                            }
+                        },
+                        {
+                            "id": "237",
+                            "title": "Newtownabbey",
+                            "fields": {
+                                "description": "39 Church Rd, Belfast",
+                                "phone": "02890 250888"
+                            }
+                        },
+                        {
+                            "id": "238",
+                            "title": "Newtownards",
+                            "fields": {
+                                "description": "East Street, Newtownards",
+                                "phone": "02891 812581"
+                            }
+                        },
+                        {
+                            "id": "239",
+                            "title": "Omagh",
+                            "fields": {
+                                "description": "Mountjoy Rd, Omagh",
+                                "phone": "02882 254222"
+                            }
+                        },
+                        {
+                            "id": "240",
+                            "title": "Portadown",
+                            "fields": {
+                                "description": "Jervis Street, Portadown",
+                                "phone": "02838 397200"
+                            }
+                        },
+                        {
+                            "id": "241",
+                            "title": "Strabane",
+                            "fields": {
+                                "description": "Urney Road, Strabane",
+                                "phone": "02871 381000"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "21",
+                    "title": "Useful Contacts",
+                    "fields": {
+                        "description": "List of useful contacts",
+                        "icon": "phone"
+                    },
+                    "entries": [
+                        {
+                            "id": "157",
+                            "title": "Lifeline",
+                            "fields": {
+                                "description": "Emergency",
+                                "phone": "0808 808 8000"
+                            }
+                        },
+                        {
+                            "id": "158",
+                            "title": "Barnardo's",
+                            "fields": {
+                                "phone": "028 9067 2366"
+                            }
+                        },
+                        {
+                            "id": "159",
+                            "title": "Pips",
+                            "fields": {
+                                "phone": "028 9080 5850"
+                            }
+                        },
+                        {
+                            "id": "160",
+                            "title": "Extern",
+                            "fields": {
+                                "phone": "028 9084 0555",
+                                "website": "www.extern.org"
+                            }
+                        },
+                        {
+                            "id": "161",
+                            "title": "Women's Aid",
+                            "fields": {
+                                "description": "24 Hour Helpline",
+                                "phone": "0808 802 1414"
+                            }
+                        },
+                        {
+                            "id": "163",
+                            "title": "Addiction NI",
+                            "fields": {
+                                "phone": "028 9066 4434"
+                            }
+                        },
+                        {
+                            "id": "164",
+                            "title": "Niacro",
+                            "fields": {
+                                "phone": "028 9032 0157",
+                                "website": "www.niacro.co.uk"
+                            }
+                        },
+                        {
+                            "id": "165",
+                            "title": "NI Housing Executive",
+                            "fields": {
+                                "description": "Enquiries",
+                                "phone": "03448 920 900",
+                                "website": "www.nihe.gov.uk"
+                            }
+                        },
+                        {
+                            "id": "166",
+                            "title": "NI Housing Executive",
+                            "fields": {
+                                "description": "Repairs",
+                                "phone": "03448 920 901",
+                                "website": "www.nihe.gov.uk"
+                            }
+                        },
+                        {
+                            "id": "167",
+                            "title": "NI Housing Executive",
+                            "fields": {
+                                "description": "Benefits",
+                                "phone": "03448 920 902",
+                                "website": "www.nihe.gov.uk"
+                            }
+                        },
+                        {
+                            "id": "168",
+                            "title": "Alternatives",
+                            "fields": {
+                                "phone": "028 9031 1420",
+                                "website": "www.alternativesrj.org"
+                            }
+                        },
+                        {
+                            "id": "169",
+                            "title": "Community Restorative Justice",
+                            "fields": {
+                                "phone": "028 9030 8024",
+                                "website": "www.nicva.org\/organisation\/community-restorative-justice-ireland-central-office"
+                            }
+                        },
+                        {
+                            "id": "170",
+                            "title": "PSNI",
+                            "fields": {
+                                "description": "Non-Emergency",
+                                "phone": "101",
+                                "website": "www.psni.police.uk"
+                            }
+                        },
+                        {
+                            "id": "171",
+                            "title": "PSNI",
+                            "fields": {
+                                "description": "Emergency",
+                                "phone": "999",
+                                "website": "www.psni.police.uk"
+                            }
+                        },
+                        {
+                            "id": "172",
+                            "title": "Aware",
+                            "fields": {
+                                "phone": "08451 20 29 61"
+                            }
+                        },
+                        {
+                            "id": "173",
+                            "title": "NIAMH",
+                            "fields": {
+                                "phone": "028 9032 8474"
+                            }
+                        },
+                        {
+                            "id": "174",
+                            "title": "Samaritans",
+                            "fields": {
+                                "phone": "116 123"
+                            }
+                        },
+                        {
+                            "id": "175",
+                            "title": "Victim Support NI",
+                            "fields": {
+                                "email": "belfast@victimsupportni.org.uk",
+                                "phone": "028 9024 3133"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "title": "About",
+            "fields": {
+                "icon": "good"
+            }
+        }
+    ]
+}

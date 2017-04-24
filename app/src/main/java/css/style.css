@@ -1,0 +1,1192 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue"!important;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+/* Colours
+---------------------------------------------------------------------------------------------------- */
+/* Basics
+---------------------------------------------------------------------------------------------------- */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Helvetica Neue";
+}
+
+/* Navigation Bar
+---------------------------------------------------------------------------------------------------- */
+body.journal ion-header-bar {
+  background: #fdd200;
+}
+body.journal .filter-bar .bar-header {
+  background: #fdd200;
+}
+body.appointments ion-header-bar {
+  background: #f27c27;
+}
+body.appointments .filter-bar .bar-header {
+  background: #f27c27;
+}
+body.probation ion-header-bar {
+  background: #ac1e3b;
+}
+body.probation .filter-bar .bar-header {
+  background: #ac1e3b;
+}
+body.mental ion-header-bar {
+  background: #0076c2;
+}
+body.mental .filter-bar .bar-header {
+  background: #0076c2;
+}
+body.addiction ion-header-bar {
+  background: #ad4992;
+}
+body.addiction .filter-bar .bar-header {
+  background: #ad4992;
+}
+body.contacts ion-header-bar {
+  background: #00707c;
+}
+body.contacts .filter-bar .bar-header {
+  background: #00707c;
+}
+body.victims ion-header-bar {
+  background: #59db43;
+}
+body.victims .filter-bar .bar-header {
+  background: #59db43;
+}
+
+ion-nav-bar {
+  color: white;
+}
+ion-nav-bar .button, ion-nav-bar .button-clear {
+  color: white!important;
+}
+ion-nav-bar .button .icon-plus, ion-nav-bar .button-clear .icon-plus {
+  display: block;
+  height: 34px;
+  width: 34px;
+  background: url(../assets/sprite@2x.png) no-repeat;
+  background-size: 220px 484px;
+  background-position: -137px -291px;
+}
+ion-nav-bar .button-outline {
+  border-color: white!important;
+}
+ion-nav-bar .button-outline.activated {
+  background: none!important;
+  opacity: 0.2;
+}
+
+.platform-ios.platform-cordova .nav-bar-block:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.filter-bar .button, .filter-bar .button-clear {
+  color: white!important;
+}
+
+/* Tab Bar (hidden due to switching to side menu)
+---------------------------------------------------------------------------------------------------- */
+ion-tabs .tabs {
+  display: none;
+}
+
+.has-tabs, .bar-footer.has-tabs {
+  bottom: 0!important;
+}
+
+/* Side Menu
+---------------------------------------------------------------------------------------------------- */
+.menu {
+  background: #27426B;
+}
+.menu .list .item {
+  background: none;
+  border: none;
+  border-left: solid 6px transparent;
+  -webkit-transition: border 0.2s;
+}
+.menu .list .item a {
+  color: white;
+  background: none;
+  padding-left: 12px;
+}
+.menu .list .item a.activated {
+  opacity: 0.2;
+}
+.menu .list .item .icon {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  vertical-align: -10px;
+  margin-right: 8px;
+  opacity: 0;
+}
+.menu .list .item .icon svg {
+  height: 22px;
+  width: 22px;
+  stroke: white;
+  fill: #27426B;
+  margin: 5px;
+  stroke-width: 1.6;
+}
+.menu .list .item .text {
+  display: inline-block;
+  opacity: 0;
+}
+
+.menu-open .menu .list .item.item-journal {
+  border-color: #fdd200;
+}
+.menu-open .menu .list .item.item-appointments {
+  border-color: #f27c27;
+}
+.menu-open .menu .list .item.item-probation {
+  border-color: #ac1e3b;
+}
+.menu-open .menu .list .item.item-mental {
+  border-color: #0076c2;
+}
+.menu-open .menu .list .item.item-addiction {
+  border-color: #ad4992;
+}
+.menu-open .menu .list .item.item-contacts {
+  border-color: #00707c;
+}
+.menu-open .menu .list .item.item-victims {
+  border-color: #59db43;
+}
+.menu-open .menu .list .item.item-about {
+  border-color: black;
+}
+.menu-open .menu .list .item .text {
+  -webkit-animation: menu-items-text 0.2s linear forwards;
+}
+.menu-open .menu .list .item .icon {
+  -webkit-animation: menu-items-icon 0.2s linear forwards;
+}
+.menu-open .menu .list .item:nth-child(1) .text, .menu-open .menu .list .item:nth-child(1) .icon {
+  -webkit-animation-delay: 0s;
+}
+.menu-open .menu .list .item:nth-child(2) .text, .menu-open .menu .list .item:nth-child(2) .icon {
+  -webkit-animation-delay: 0.05s;
+}
+.menu-open .menu .list .item:nth-child(3) .text, .menu-open .menu .list .item:nth-child(3) .icon {
+  -webkit-animation-delay: 0.1s;
+}
+.menu-open .menu .list .item:nth-child(4) .text, .menu-open .menu .list .item:nth-child(4) .icon {
+  -webkit-animation-delay: 0.15s;
+}
+.menu-open .menu .list .item:nth-child(5) .text, .menu-open .menu .list .item:nth-child(5) .icon {
+  -webkit-animation-delay: 0.2s;
+}
+.menu-open .menu .list .item:nth-child(6) .text, .menu-open .menu .list .item:nth-child(6) .icon {
+  -webkit-animation-delay: 0.25s;
+}
+.menu-open .menu .list .item:nth-child(7) .text, .menu-open .menu .list .item:nth-child(7) .icon {
+  -webkit-animation-delay: 0.3s;
+}
+.menu-open .menu .list .item:nth-child(8) .text, .menu-open .menu .list .item:nth-child(8) .icon {
+  -webkit-animation-delay: 0.35s;
+}
+
+/* Content Lists
+---------------------------------------------------------------------------------------------------- */
+.svg-loading-spinner {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+symbol[id^='icon'] path {
+  stroke: inherit;
+  fill: none;
+  stroke-width: inherit;
+}
+
+.scroll-refresher {
+  height: 100px;
+  top: -100px;
+  background: #f0f3f7 linear-gradient(to top, #f0f3f7 80%, #ffffff 100%);
+  transition: none!important;
+  z-index: 1;
+}
+.scroll-refresher .ionic-refresher-content {
+  bottom: 20px!important;
+}
+.scroll-refresher .ionic-refresher-content .text-pulling {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+ul.content-list li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0 43px 0 38px;
+  line-height: 2.4rem;
+  display: block;
+  color: #747474;
+}
+ul.content-list li a div {
+  min-height: 67px;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  border-bottom: solid 1px #e2e2e2;
+  padding: 15px 0 15px 30px;
+  position: relative;
+}
+ul.content-list li a div .icon {
+  position: absolute;
+  top: 16px;
+  left: -22px;
+  width: 34px;
+  height: 34px;
+}
+ul.content-list li a div .icon svg {
+  height: 26px;
+  width: 26px;
+  stroke: #747474;
+  fill: none;
+  stroke-width: 2;
+  margin: 4px auto 0;
+  display: block;
+}
+ul.content-list li a div .number {
+  text-align: right;
+  font-size: 2.2rem;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin: 0 -15px 0 0;
+  height: 67px;
+  line-height: 67px;
+}
+ul.content-list li a div p {
+  margin: 0;
+}
+ul.content-list li a div p span.subtitle {
+  display: block;
+  color: #848484;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+ul.content-list li a.activated {
+  color: white;
+}
+ul.content-list li a.activated div {
+  border-top-color: transparent!important;
+  border-bottom-color: transparent;
+}
+ul.content-list li.heading a.activated {
+  color: #747474;
+}
+ul.content-list li.heading a.activated div {
+  border-bottom-color: #e2e2e2;
+}
+ul.content-list li .detail {
+  padding: 20px 43px 10px 43px;
+  color: #747474;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+ul.content-list li .detail ol {
+  list-style-type: decimal;
+}
+ul.content-list li .detail ol li {
+  margin: 0 0 10px;
+}
+ul.content-list li .detail ul {
+  list-style-type: disc;
+}
+ul.content-list li .detail ul li {
+  margin: 0 0 10px;
+}
+ul.content-list li .detail figcaption {
+  font-size: 1.2rem;
+}
+ul.content-list li .detail p a {
+  padding: 0;
+}
+ul.content-list.content-list-probation li a div .icon svg {
+  fill: #ac1e3b;
+  stroke: white;
+}
+ul.content-list.content-list-probation li a.activated {
+  background: #ac1e3b;
+}
+ul.content-list.content-list-victims li a div .icon svg {
+  fill: #59db43;
+  stroke: white;
+}
+ul.content-list.content-list-victims li a.activated {
+  background: #59db43;
+}
+ul.content-list.content-list-mental li a div, ul.content-list.content-list-websites li a div {
+  min-height: 57px;
+}
+ul.content-list.content-list-mental li a div .icon, ul.content-list.content-list-websites li a div .icon {
+  top: 12px;
+}
+ul.content-list.content-list-mental li a div .icon svg, ul.content-list.content-list-websites li a div .icon svg {
+  fill: white;
+  stroke: #0076c2;
+}
+ul.content-list.content-list-mental li a.activated, ul.content-list.content-list-websites li a.activated {
+  background: #0076c2;
+}
+ul.content-list.content-list-mental li:first-child a div {
+  border-top: solid 1px #e2e2e2;
+  min-height: 58px;
+}
+ul.content-list.content-list-websites li a div p {
+  color: #0076c2;
+}
+ul.content-list.content-list-websites li a div p span {
+  display: block;
+  color: #848484;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+ul.content-list.content-list-websites li a.activated div p {
+  color: white;
+}
+ul.content-list.content-list-websites li a.activated div p span {
+  color: white;
+}
+ul.content-list.content-list-contacts li a div .icon svg {
+  fill: #00707c;
+  stroke: white;
+}
+ul.content-list.content-list-contacts li a div p {
+  color: #00707c;
+}
+ul.content-list.content-list-contacts li a div p .subtitle {
+  color: #848484;
+}
+ul.content-list.content-list-contacts li a.activated {
+  background: #00707c;
+}
+ul.content-list.content-list-contacts li a.activated div p {
+  color: white;
+}
+ul.content-list.content-list-contacts li a.activated div p span {
+  color: white;
+}
+ul.content-list.content-list-addiction li.heading a {
+  color: #ad4992;
+  font-weight: 700;
+}
+ul.content-list.content-list-addiction li.heading a .icon svg {
+  fill: #ad4992;
+  stroke: white;
+}
+ul.content-list.content-list-addiction li a div .number {
+  color: #ad4992;
+}
+ul.content-list.content-list-addiction li:not(.heading) a.activated {
+  background: #ad4992;
+}
+ul.content-list.content-list-addiction li:not(.heading) a.activated div .number {
+  color: white;
+}
+ul.content-list.content-list-addiction li .detail {
+  background: #ebebeb;
+  display: none;
+}
+ul.content-list.content-list-addiction li.open a {
+  background: #ad4992;
+  color: white;
+}
+ul.content-list.content-list-addiction li.open a div {
+  border-bottom-color: transparent;
+}
+ul.content-list.content-list-addiction li.open a div .number {
+  color: white;
+}
+ul.content-list.content-list-addiction li.open .detail {
+  display: block;
+}
+
+/* Body Text
+---------------------------------------------------------------------------------------------------- */
+article {
+  color: #747474;
+}
+article div {
+  padding: 0 0 16px 4px;
+  margin-bottom: 20px;
+}
+article div h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #747474;
+}
+article div ul {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1.7rem;
+}
+article div ul li {
+  margin-bottom: 1.1rem;
+}
+article div ul.bullet {
+  font-weight: 400;
+  list-style-type: disc;
+  font-size: 1.4rem;
+}
+article div figcaption {
+  font-size: 1.2rem;
+}
+article.no-border div {
+  border-bottom: none;
+}
+article.article-mental ul.colored-list {
+  color: #0076c2;
+}
+
+.highlightedText {
+  background: yellow;
+  outline: solid 1px gold;
+}
+
+/* Journal (Main)
+---------------------------------------------------------------------------------------------------- */
+ion-content.journal-main .datetime {
+  background: #ccc;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+ion-content.journal-main .datetime.morning {
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a6e1fd), color-stop(100%, #e2f4fe));
+  background: -webkit-linear-gradient(top, #a6e1fd 0%, #e2f4fe 100%);
+}
+ion-content.journal-main .datetime.morning h2, ion-content.journal-main .datetime.morning h3 {
+  color: #747474;
+}
+ion-content.journal-main .datetime.afternoon {
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #7cd3fc), color-stop(100%, #5fcafc));
+  background: -webkit-linear-gradient(top, #7cd3fc 0%, #5fcafc 100%);
+}
+ion-content.journal-main .datetime.afternoon h2, ion-content.journal-main .datetime.afternoon h3 {
+  color: white;
+}
+ion-content.journal-main .datetime.night {
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #236c90), color-stop(100%, #0b425f));
+  background: -webkit-linear-gradient(top, #236c90 0%, #0b425f 100%);
+}
+ion-content.journal-main .datetime.night h2, ion-content.journal-main .datetime.night h3 {
+  color: white;
+}
+ion-content.journal-main .datetime .new-entry {
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 56px;
+  width: 56px;
+  background: #F04864;
+  z-index: 1;
+  -webkit-border-radius: 50%;
+  -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
+}
+ion-content.journal-main .datetime .new-entry:active {
+  background: #FA6E85;
+}
+ion-content.journal-main .datetime .new-entry .icon-plus {
+  display: block;
+  height: 34px;
+  width: 34px;
+  background: url(../assets/sprite@2x.png) no-repeat;
+  background-size: 220px 484px;
+  background-position: -137px -291px;
+  margin: 11px auto 0;
+}
+ion-content.journal-main .datetime div {
+  width: 100%;
+}
+ion-content.journal-main .datetime div h2 {
+  margin: 5px 0 0 0;
+  font-weight: 300;
+  font-size: 3.25rem;
+  line-height: 4.4rem;
+}
+ion-content.journal-main .datetime div h2 span {
+  display: block;
+  text-transform: lowercase;
+}
+ion-content.journal-main .datetime div h3 {
+  margin: -12px 0 0 0;
+  font-weight: 200;
+  font-size: 2.75rem;
+}
+ion-content.journal-main .no-entries {
+  text-align: center;
+  color: #848484;
+  font-size: 1.5rem;
+  margin: 60px 0 0 0;
+}
+ion-content.journal-main .select-month + .datetime {
+  margin-top: -48px;
+  padding-top: 48px;
+  height: 268px;
+}
+
+.select-month + ion-content.journal-main .datetime {
+  padding-top: 48px;
+  height: 268px;
+}
+
+.select-month {
+  text-align: center;
+  font-size: 1.6rem;
+  height: 48px;
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 44px;
+}
+.select-month.afternoon {
+  background: #8bd8fc;
+}
+.select-month.night {
+  background: #246f94;
+}
+.select-month.morning {
+  background: #c9edfe;
+}
+.select-month.morning .month, .select-month.morning .icon {
+  color: #747474;
+}
+.select-month .month {
+  line-height: 48px;
+  color: white;
+  -webkit-transition: opacity 0.3s;
+}
+.select-month .month.hidden {
+  opacity: 0;
+}
+.select-month .icon {
+  color: white;
+  position: absolute;
+  bottom: 12px;
+  font-size: 22px;
+}
+.select-month .icon.icon-arrow-left {
+  left: 14px;
+}
+.select-month .icon.icon-arrow-right {
+  right: 14px;
+}
+
+.filter-not-found {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 100%;
+  z-index: 11;
+  text-align: center;
+  line-height: 44px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.platform-ios.platform-cordova .select-month, .platform-ios.platform-cordova .filter-not-found {
+  top: 64px;
+}
+
+ul.journal-history {
+  float: left;
+  width: 100%;
+  margin-top: 16px;
+}
+ul.journal-history li {
+  float: left;
+  width: 100%;
+}
+ul.journal-history li a {
+  text-decoration: none;
+  color: #747474;
+  display: block;
+  min-height: 68px;
+  padding: 0 8px;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+ul.journal-history li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  right: 40px;
+  height: 1px;
+  background: #e2e2e2;
+}
+ul.journal-history li a.activated {
+  background: #f4f4f4;
+}
+ul.journal-history li a .date {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.8rem;
+  line-height: 2.4rem;
+  width: 60px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  margin: 14px 0 0 0;
+}
+ul.journal-history li a .date span {
+  display: block;
+  font-size: 1.3rem;
+}
+ul.journal-history li a .entry {
+  float: left;
+  margin: 0 0 0 -60px;
+  width: 100%;
+  position: relative;
+  padding: 15px 58px 15px 68px;
+}
+ul.journal-history li a .entry div {
+  overflow: auto;
+  padding: 2px 16px;
+  border-left: solid 1px #747474;
+  border-right: solid 1px #747474;
+  min-height: 48px;
+}
+ul.journal-history li a .entry div h4 {
+  color: #747474;
+  margin: 0 0 3px 0;
+  font-size: 1.4rem;
+}
+ul.journal-history li a .entry div p {
+  margin: 0;
+}
+ul.journal-history li a .entry div p em {
+  font-style: italic;
+}
+ul.journal-history li a .emotion {
+  width: 50px;
+  float: left;
+  margin: 14px 0 0 -50px;
+  position: relative;
+}
+ul.journal-history li a .emotion .icon {
+  display: block;
+  background: url(../assets/sprite@2x.png) no-repeat;
+  background-size: 220px 484px;
+  height: 37px;
+  width: 37px;
+  margin: 4px auto 0;
+}
+ul.journal-history li a .emotion .icon.icon-happy {
+  background-position: -9px -97px;
+}
+ul.journal-history li a .emotion .icon.icon-good {
+  background-position: -9px -152px;
+}
+ul.journal-history li a .emotion .icon.icon-fine {
+  background-position: -64px -97px;
+}
+ul.journal-history li a .emotion .icon.icon-indifferent {
+  background-position: -64px -152px;
+}
+ul.journal-history li a .emotion .icon.icon-anxious {
+  background-position: -119px -97px;
+}
+ul.journal-history li a .emotion .icon.icon-unhappy {
+  background-position: -119px -152px;
+}
+ul.journal-history li a .emotion .icon.icon-frustrated {
+  background-position: -174px -97px;
+}
+ul.journal-history li a .emotion .icon.icon-angry {
+  background-position: -174px -152px;
+}
+ul.journal-history li.happy .entry div, ul.journal-history li.good .entry div {
+  border-left-color: #fcd200;
+  border-right-color: #fcd200;
+}
+ul.journal-history li.happy .entry div h4, ul.journal-history li.good .entry div h4 {
+  color: #fcd200;
+}
+ul.journal-history li.fine .entry div, ul.journal-history li.indifferent .entry div {
+  border-left-color: #6cc7b8;
+  border-right-color: #6cc7b8;
+}
+ul.journal-history li.fine .entry div h4, ul.journal-history li.indifferent .entry div h4 {
+  color: #6cc7b8;
+}
+ul.journal-history li.anxious .entry div, ul.journal-history li.unhappy .entry div {
+  border-left-color: #0076c1;
+  border-right-color: #0076c1;
+}
+ul.journal-history li.anxious .entry div h4, ul.journal-history li.unhappy .entry div h4 {
+  color: #0076c1;
+}
+ul.journal-history li.frustrated .entry, ul.journal-history li.angry .entry {
+  border-left-color: #ac4892;
+  border-right-color: #ac4892;
+}
+ul.journal-history li.frustrated .entry h4, ul.journal-history li.angry .entry h4 {
+  color: #ac4892;
+}
+
+.select-emotion {
+  text-align: center;
+  padding: 30px 8px 0 8px;
+}
+.select-emotion h2 {
+  font-size: 1.5rem;
+  color: #747474;
+}
+.select-emotion ul {
+  margin: 14px 0 0 0;
+}
+.select-emotion ul li {
+  width: 25%;
+  display: inline-block;
+  margin: 0 0 0 -4px;
+}
+.select-emotion ul li a {
+  display: block;
+  color: #747474;
+  -webkit-border-radius: 6px;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+.select-emotion ul li a.activated {
+  background: #f4f4f4;
+}
+.select-emotion ul li a.fade-out {
+  opacity: 0.2;
+}
+.select-emotion ul li a .icon {
+  display: block;
+  background: url(../assets/sprite@2x.png) no-repeat;
+  background-size: 220px 484px;
+  height: 37px;
+  width: 37px;
+  margin: 4px auto 6px;
+}
+.select-emotion ul li a .icon.icon-happy {
+  background-position: -9px -97px;
+}
+.select-emotion ul li a .icon.icon-good {
+  background-position: -9px -152px;
+}
+.select-emotion ul li a .icon.icon-fine {
+  background-position: -64px -97px;
+}
+.select-emotion ul li a .icon.icon-indifferent {
+  background-position: -64px -152px;
+}
+.select-emotion ul li a .icon.icon-anxious {
+  background-position: -119px -97px;
+}
+.select-emotion ul li a .icon.icon-unhappy {
+  background-position: -119px -152px;
+}
+.select-emotion ul li a .icon.icon-frustrated {
+  background-position: -174px -97px;
+}
+.select-emotion ul li a .icon.icon-angry {
+  background-position: -174px -152px;
+}
+
+.explain-emotion {
+  text-align: center;
+  padding: 30px 32px 0 32px;
+}
+.explain-emotion h2 {
+  font-size: 1.5rem;
+  color: #747474;
+}
+.explain-emotion h2 span.happy, .explain-emotion h2 span.good {
+  color: #fcd200;
+}
+.explain-emotion h2 span.fine, .explain-emotion h2 span.indifferent {
+  color: #6cc7b8;
+}
+.explain-emotion h2 span.anxious, .explain-emotion h2 span.unhappy {
+  color: #0076c1;
+}
+.explain-emotion h2 span.frustrated, .explain-emotion h2 span.angry {
+  color: #ac4892;
+}
+.explain-emotion textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: solid 1px #e2e2e2;
+  color: #747474;
+  -webkit-border-radius: 6px;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+  padding: 10px 10px;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin: 20px 0 0 0;
+}
+
+.delete-entry {
+  padding: 15px 32px 30px 32px;
+}
+
+/* Mental Health (Main)
+---------------------------------------------------------------------------------------------------- */
+.note {
+  margin: 22px 43px 0 38px;
+  padding: 20px 30px 15px 30px;
+  -webkit-border-radius: 6px;
+  border: solid 1px red;
+  color: #747474;
+  font-weight: 500;
+}
+.note h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.note.note-mental {
+  border-color: #0076c2;
+}
+.note.note-mental h2 {
+  color: #0076c2;
+}
+.note.note-mental p.highlight {
+  color: #0076c2;
+}
+
+.inline-link {
+  text-decoration: underline;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+.inline-link.inline-link-mental {
+  color: #0076c2;
+}
+.inline-link.inline-link-mental.activated {
+  background: #0076c2;
+  color: white;
+}
+
+ul.mental-health-links {
+  text-align: center;
+  padding: 0 16px;
+  margin: 16px 0 20px 0;
+}
+ul.mental-health-links li {
+  width: 33.33%;
+  display: inline-block;
+}
+ul.mental-health-links li a {
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: -webkit-flex;
+  -webkit-align-items: top;
+  display: flex;
+  align-items: top;
+  min-height: 112px;
+  color: #0076c2;
+  -webkit-border-radius: 6px;
+  text-decoration: none;
+}
+ul.mental-health-links li a div {
+  width: 100%;
+}
+ul.mental-health-links li a div .icon {
+  display: block;
+  height: 42px;
+  width: 42px;
+  margin: 10px auto 10px;
+}
+ul.mental-health-links li a div .icon svg {
+  height: 42px;
+  width: 42px;
+  stroke-width: 2;
+  stroke: #0076c2;
+  fill: none;
+}
+ul.mental-health-links li a.activated {
+  background: #0076c2;
+  color: white;
+}
+ul.mental-health-links li a.activated div .icon svg {
+  stroke: white;
+  fill: #0076c2;
+}
+
+/* Contacts
+---------------------------------------------------------------------------------------------------- */
+.contact-form {
+  padding: 30px 32px 0 32px;
+}
+.contact-form label {
+  font-size: 1.5rem;
+  color: #00707c;
+  text-transform: capitalize;
+}
+.contact-form .form-input {
+  width: 100%;
+  height: 44px;
+  resize: none;
+  border: solid 1px #e2e2e2;
+  color: #747474;
+  -webkit-border-radius: 6px;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
+  padding: 10px 10px;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin: 8px 0 15px 0;
+}
+.contact-form .form-input[disabled] {
+  opacity: 1;
+  padding: 0;
+  background: none;
+  border: none;
+  -webkit-text-fill-color: #747474;
+}
+
+/* Calendar
+---------------------------------------------------------------------------------------------------- */
+calendar {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+calendar .header {
+  height: 44px;
+  color: white;
+  font-size: 1.6rem;
+  line-height: 44px;
+  background: #f27c27;
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+calendar .header .btn {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  font-size: 22px;
+}
+calendar .header .btn.btn-prev {
+  left: 0;
+}
+calendar .header .btn.btn-next {
+  right: 0;
+}
+calendar .week {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  overflow: hidden;
+  border-bottom: solid 1px rgba(39, 66, 107, 0.075);
+}
+calendar .week.names {
+  border-top: none;
+  height: 34px;
+  line-height: 34px;
+}
+calendar .week.names .day {
+  border-left: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+calendar .week .day {
+  float: left;
+  width: 14.28571429%;
+  box-sizing: border-box;
+  height: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  color: #59687D;
+  font-size: 1.4rem;
+  position: relative;
+}
+calendar .week .day.has-events:before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 6px;
+  height: 6px;
+  background: #59687D;
+  border-radius: 50%;
+}
+calendar .week .day:first-child {
+  border-left: none;
+}
+calendar .week .day.different-month {
+  color: rgba(89, 104, 125, 0.3);
+}
+calendar .week .day.today {
+  background: #E3F2FF;
+}
+calendar .week .day.selected {
+  background: #59687D;
+  color: white;
+}
+
+.selected-date {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  border-bottom: solid 1px rgba(39, 66, 107, 0.075);
+  background: rgba(39, 66, 107, 0.03);
+  font-weight: 500;
+  color: #59687D;
+  margin-bottom: 0;
+}
+
+.appointment {
+  overflow: auto;
+  padding: 0 16px;
+  border-bottom: solid 1px rgba(39, 66, 107, 0.075);
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.appointment:active {
+  background: rgba(39, 66, 107, 0.03);
+}
+.appointment p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #59687D;
+}
+.appointment p span {
+  display: block;
+  margin: 2px 0 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #f27c27;
+}
+
+.remindersOptions {
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.remindersOptions li {
+  display: block;
+  height: 44px;
+  border-bottom: solid 1px #e2e2e2;
+  overflow: hidden;
+}
+.remindersOptions li input {
+  display: none;
+}
+.remindersOptions li input:checked + label .icon {
+  display: block;
+}
+.remindersOptions li label {
+  padding: 11px 0 0 2px;
+  display: block;
+  height: 44px;
+  color: #747474;
+}
+.remindersOptions li label .icon {
+  height: 18px;
+  width: 18px;
+  float: right;
+  margin: 3px 0 0 0;
+  display: none;
+}
+.remindersOptions li label .icon svg {
+  height: 18px;
+  width: 18px;
+  fill: #f27c27;
+}
+
+/* Video Modal
+---------------------------------------------------------------------------------------------------- */
+.modal ion-header-bar {
+  background: black!important;
+}
+.modal ion-header-bar .ion-close {
+  color: white;
+}
+.modal .scroll-content {
+  background: black;
+}
+.modal .animation-video {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -44px;
+  transform: translateY(-50%);
+}
+
+/* Animations
+---------------------------------------------------------------------------------------------------- */
+@-webkit-keyframes menu-items-text {
+  0% {
+    -webkit-transform: translate3d(40px, 0, 0);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translate3d(-15px, 0, 0);
+    opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0px, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes menu-items-icon {
+  0% {
+    -webkit-transform: scale(0.2);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}

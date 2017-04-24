@@ -1,0 +1,25 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <ion-nav-buttons side="secondary">
+        <a href="#/page/{{ page.id }}/section/0/entry/new" class="button button-clear">
+            <i class="icon icon-plus"></i>
+        </a>
+    </ion-nav-buttons>
+    
+    <ion-content>
+        
+        <calendar selected="day" my-two-way-bind="test"></calendar>
+    
+        <p class="selected-date">{{ day.format('dddd, MMMM Do YYYY') }}</p>
+        
+        <!--<div class="appointment">
+            <p>Apointment Heading<span>11:00 AM</span></p>
+        </div>-->
+        
+        <a class="appointment" ng-repeat="item in appointmentsThisDay" href="#/page/{{ page.id }}/section/0/entry/{{ item.index }}">
+            <p>{{ item.title }}<span>{{ time(item.date) }}</span></p>
+        </a>
+        
+    </ion-content>
+    
+</ion-view>

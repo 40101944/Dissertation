@@ -1,0 +1,47 @@
+<ion-view view-title="Contact">
+    
+    <ion-nav-buttons side="secondary">
+        <a class="button button-outline" ng-click="updateContact()" ng-if="!section.id">Done</a>
+    </ion-nav-buttons>
+    
+    <ion-content>
+        
+        <div class="contact-form" ng-if="section.id">
+            
+            <label>Name</label>
+            <input type="text" ng-model="entry.title" class="form-input" ng-disabled="section.id" />
+            
+            <div ng-repeat="(field, value) in entry.fields">
+                <label>{{ field | capitalize }}</label>
+                <input type="text" ng-model="entry.fields[field]" class="form-input" ng-disabled="section.id" />
+            </div>
+            
+        </div>
+        
+        <div class="contact-form" ng-if="!section.id">
+            
+            <label>Name</label>
+            <input type="text" ng-model="entry.title" class="form-input" />
+            
+            <div ng-repeat="field in ['description', 'address', 'telephone', 'email', 'fax', 'website', 'notes']">
+                <label>{{ field }}</label>
+                <input type="text" ng-model="entry.fields[field]" class="form-input" />
+            </div>
+            
+        </div>
+        
+        <div class="delete-entry">
+            <button ng-if="entry.fields.phone && entry.fields.phone != ''" class="button button-block button-balanced" ng-click="callContact(entry.fields.phone)">
+                Call
+            </button>
+            <button ng-if="entry.fields.email && entry.fields.email != ''" class="button button-block button-positive" ng-click="emailContact(entry.fields.email)">
+                Email
+            </button>
+            <button class="button button-block button-assertive" ng-click="deleteContact()" ng-if="!section.id">
+                Delete Contact
+            </button>
+        </div>
+        
+    </ion-content>
+    
+</ion-view>

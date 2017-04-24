@@ -1,0 +1,39 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <ion-content>
+        
+        <ion-refresher
+            pulling-text="Pull to refresh..." 
+            on-refresh="download()" 
+            ng-if="dataModel">
+        </ion-refresher>
+        
+        <ion-spinner ng-if="!dataModel" class="svg-loading-spinner"></ion-spinner>                   
+        
+        <ul class="content-list content-list-addiction">
+            <li class="heading">
+                <a>
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + page.sections[0].fields.icon }}"></use></svg>
+                        </i>
+                        <p>{{ page.sections[0].title }}</p>
+                    </div>
+                </a>
+            </li>
+            <li ng-repeat="entry in page.sections[0].entries" ng-class="{'open' : entry.open}">
+                <a ng-click="openTip(entry)">
+                    <div>
+                        <i class="number">{{ $index+1 }}.</i>
+                        <p>{{ entry.title }}</p>
+                    </div>
+                </a>
+                <div class="detail">
+                    <p>{{ entry.fields.body }}</p>
+                </div>
+            </li>
+        </ul>
+        
+    </ion-content>
+    
+</ion-view>

@@ -1,0 +1,20 @@
+<ion-view view-title="{{section.title }}">
+    
+    <ion-content>
+        
+        <ul class="content-list content-list-websites">
+            <li ng-repeat="entry in section.entries">
+                <a ng-click="openWeb('http://' + entry.fields.website)">
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + section.fields.icon }}"></use></svg>
+                        </i>
+                        <p>{{ entry.title }}<span>{{ shortenURL(entry.fields.website) }}</span></p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        
+    </ion-content>
+    
+</ion-view> 

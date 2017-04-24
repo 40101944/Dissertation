@@ -1,0 +1,44 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <ion-nav-buttons side="secondary">
+        <a class="button button-outline" ng-click="updateAppointmentEntry(entry)">Done</a>
+    </ion-nav-buttons>
+    
+    <ion-content>
+        
+        <div class="contact-form">
+            
+            <label>Title</label>
+            <input type="text" ng-model="entry.title" class="form-input" />
+            
+            <label>Location</label>
+            <input type="text" ng-model="entry.location" class="form-input" />
+        
+            <label>Date / Time</label>
+            <input type="datetime-local" ng-model="entry.date" class="form-input" />
+            
+            <label>Reminders</label>
+            <!--<label class="checkbox"><input type="checkbox"></label>-->
+            
+            <ul class="remindersOptions">
+                <li ng-repeat="item in reminderTimes">
+                    <input type="checkbox" id="reminderOption['{{ item.title }}']" ng-click="toggleReminderSelection({{ item.mins }})" ng-checked="reminderSet({{ item.mins }}, entry)">
+                    <label for="reminderOption['{{ item.title }}']">{{ item.title }}
+                        <span class="icon">
+                            <svg><use xlink:href="assets/symbol-defs.svg#icon-check"></use></svg>
+                        </span>
+                    </label>
+                </li>
+            </ul>
+            
+        </div>
+        
+        <div class="delete-entry" ng-if="entry && !entry.new">
+            <button class="button button-block button-assertive" ng-click="deleteAppointment(entry)">
+                Delete Appointment
+            </button>
+        </div>
+        
+    </ion-content>
+    
+</ion-view>

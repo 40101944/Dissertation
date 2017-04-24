@@ -1,0 +1,40 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <ion-nav-buttons side="secondary">
+        <a class="button button-outline" ng-click="updateJournalEntry(entry)">Done</a>
+    </ion-nav-buttons>
+    
+    <ion-content class="new-journal-entry">
+        
+        <div class="select-emotion">
+
+            <h2>Select how you are feeling?</h2>
+
+            <ul>
+                <li ng-repeat="emotion in emotions">
+                    <a ng-click="entry.emotion = emotion" ng-class="{'fade-out' : entry.emotion && entry.emotion != emotion}">
+                        <i class="icon" ng-class="'icon-' + emotion"></i>
+                        {{ emotion }}
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        
+        <div class="explain-emotion" ng-if="entry.emotion">
+
+            <h2>Why do you feel <span ng-class="entry.emotion" ng-bind="entry.emotion + '?'"></span> Are there any actions you need to take?</h2>
+
+            <textarea placeholder="Type Here" ng-model="entry.explanation"></textarea>
+
+        </div>
+        
+        <div class="delete-entry" ng-if="entry && !entry.new">
+            <button class="button button-block button-assertive" ng-click="deleteJournalEntry()">
+                Delete Entry
+            </button>
+        </div>
+        
+    </ion-content>
+    
+</ion-view>

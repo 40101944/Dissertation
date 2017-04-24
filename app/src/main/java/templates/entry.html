@@ -1,0 +1,30 @@
+<ion-view view-title="{{section.title }}">
+    
+    <ion-nav-buttons side="secondary">
+        <button class="button button-icon icon ion-ios-search-strong" ng-click="showFilterBar(section.entries)">
+        </button>
+    </ion-nav-buttons>
+    
+    <div class="filter-not-found" ng-if="filterText && filterCount == 0">'{{ filterText }}' was not found.</div>
+    
+    <ion-content>
+    
+        <ul class="content-list content-list-{{ view }}">
+            <li ng-repeat="entry in section.entries">
+                <article>
+                    <a>
+                        <div ng-if="entry.title">
+                            <i class="icon">
+                                <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + section.fields.icon }}"></use></svg>
+                            </i>
+                            <p ng-bind-html="highlight(entry.title, filterText)"></p>
+                        </div>
+                    </a>
+                    <div class="detail" ng-bind-html="highlight(entry.fields.body, filterText)"></div>
+                </article>
+            </li>
+        </ul>
+        
+    </ion-content>
+    
+</ion-view>

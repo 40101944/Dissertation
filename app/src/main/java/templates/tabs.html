@@ -1,0 +1,41 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    
+    <ion-side-menu-content>
+        
+        <ion-nav-bar>
+            
+            <ion-nav-back-button></ion-nav-back-button>
+            
+            <ion-nav-buttons side="left">
+                
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            
+            </ion-nav-buttons>
+            
+        </ion-nav-bar>
+
+        <ion-nav-view></ion-nav-view>
+
+    </ion-side-menu-content>
+
+    <!-- Side Menu (left) -->
+    <ion-side-menu side="left">
+        
+        <ion-content class="has-header">
+            
+            <ion-list>
+                
+                <ion-item ng-repeat="page in dataModel.pages" menu-close ng-href="{{ page.id != 8 ? '#/page/'+page.id : '' }}" ng-click="page.id == 8 ? openVideo() : ''" ng-class="'item-'+originalPageNames[page.id - 1]">
+                    <span class="icon">
+                        <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + page.fields.icon }}"></use></svg>
+                    </span>
+                    <span class="text">{{ page.title }}</span>
+                </ion-item>
+                
+            </ion-list>
+            
+        </ion-content>
+        
+    </ion-side-menu>
+    
+</ion-side-menus>

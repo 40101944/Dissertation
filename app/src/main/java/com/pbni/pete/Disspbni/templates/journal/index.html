@@ -1,0 +1,53 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <div class="select-month" ng-class="timeOfDay(now)" ng-if="journalMonths.length > 1">
+        <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false">
+            <ion-slide ng-repeat="month in journalMonths">
+                <div class="month" ng-class="{'hidden': $index != journalIndex && $index != journalIndex-1 && $index != journalIndex+1 }">{{ monthsList[month.month] }} <span ng-if="month.year != journalMonths[$index+1].year && journalMonths[$index+1]">{{ month.year }}</span></div>
+            </ion-slide>
+        </ion-slide-box>
+        <i class="icon icon-arrow-left ion-arrow-left-c"></i>
+        <i class="icon icon-arrow-right ion-arrow-right-c"></i>
+    </div>
+    
+    <ion-content class="journal-main" on-scroll="journalScroll()">
+        
+        <div class="datetime" ng-class="timeOfDay(now)">
+
+            <div>
+                <h3>{{ now | date: 'MMMM' }}</h3>
+                <h2>{{ now | date: 'EEEE d' }}{{ now | dateSuffix }}<span>{{ now | date: 'h:mma' }}</span></h2>
+            </div>
+
+            <a href="#/page/{{ page.id }}/section/0/entry/new" class="new-entry">
+                <i class="icon icon-plus"></i>
+            </a>
+
+        </div>
+        
+        <p ng-if="journal[journalSelected.year][journalSelected.month].length == 0" class="no-entries">No journal entries found</p>
+
+        <ul class="journal-history" ng-if="journal && journalSelected">
+            <li ng-repeat="entry in journal[journalSelected.year][journalSelected.month] | reverse track by $index" ng-class="entry.emotion">
+                <a href="#/page/{{ page.id }}/section/0/entry/{{ journal[journalSelected.year][journalSelected.month].length - $index - 1 }}" class="new-entry">
+                    <div class="date">
+                        <span>{{ entry.date | date: 'MMM' }}</span>{{ entry.date | date: 'd' }}{{ entry.date | dateSuffix }}
+                    </div>
+                    <div class="entry">
+                        <div>
+                            <h4>Notes:</h4>
+                            <p><em ng-if="!entry.explanation">No comment</em>{{ entry.explanation }}</p>
+                        </div>
+                    </div>
+                    <div class="emotion">
+                        <i class="icon" ng-class="'icon-' + entry.emotion"></i>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <div style="clear:both"></div>
+        
+    </ion-content>
+    
+</ion-view>

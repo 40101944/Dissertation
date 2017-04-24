@@ -1,0 +1,21 @@
+<ion-view view-title="{{section.title }}">    
+    
+    <ion-content>
+    
+        <ul class="content-list content-list-contacts">
+            <li ng-repeat="entry in section.entries">
+                <a href="#/page/{{ page.id }}/section/{{ section.id }}/entry/{{ entry.id }}">
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + section.fields.icon }}"></use></svg>
+                        </i>
+                        <p>{{ entry.title }}
+                        <span class="subtitle">{{ entry.fields.description }}</span></p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        
+    </ion-content>
+    
+</ion-view>

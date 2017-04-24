@@ -1,0 +1,47 @@
+<ion-view view-title="{{ page.title }}">
+    
+    <ion-nav-buttons side="secondary">
+        <a href="#/page/{{ page.id }}/section/0/entry/new" class="button button-clear" ng-if="page.id == 5">
+            <i class="icon icon-plus"></i>
+        </a>
+    </ion-nav-buttons>
+    
+    <ion-content>
+        
+        <ion-refresher
+            pulling-text="Pull to refresh..." 
+            on-refresh="download()" 
+            ng-if="dataModel">
+        </ion-refresher>
+        
+        <ion-spinner ng-if="!dataModel" class="svg-loading-spinner"></ion-spinner>
+        
+        <ul class="content-list content-list-{{ view }}">
+            <li ng-repeat="section in page.sections">
+                <a href="#/page/{{ page.id }}/section/{{ section.id }}">
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + section.fields.icon }}"></use></svg>
+                        </i>
+                        <p>{{ section.title }}
+                        <span ng-if="section.fields.description" class="subtitle">{{ section.fields.description }}</span></p>
+                    </div>
+                </a>
+            </li>
+            <!-- List extra contacts -->
+            <li ng-if="page.id == 5" ng-repeat="contact in myContacts.entries">
+                <a href="#/page/{{ page.id }}/section/0/entry/{{ $index }}">
+                    <div>
+                        <i class="icon">
+                            <svg><use xlink:href="" ng-href="{{ 'assets/symbol-defs.svg#icon-' + page.fields.icon }}"></use></svg>
+                        </i>
+                        <p>{{ contact.title }}
+                        <span ng-if="contact.fields.description" class="subtitle">{{ contact.fields.description }}</span></p>
+                    </div>
+                </a>
+            </li>
+        </ul>              
+        
+    </ion-content>
+    
+</ion-view>
